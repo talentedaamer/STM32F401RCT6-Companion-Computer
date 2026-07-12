@@ -20,8 +20,8 @@
 #define AP_COPTER_MODE_RTL     6
 
 /* --- Hardcoded redirect target (replace with telemetry-fed value later) --- */
-#define NEW_LANDING_LAT_DEG   12.9716000
-#define NEW_LANDING_LON_DEG   77.5946000
+#define NEW_LANDING_LAT_DEG   33.541991
+#define NEW_LANDING_LON_DEG   73.113652
 #define NEW_LANDING_ALT_M     0.0f          /* 0 = ground, relative frame */
 #define ALT_TRIGGER_M         30.0f
 
