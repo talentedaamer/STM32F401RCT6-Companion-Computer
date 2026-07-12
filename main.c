@@ -41,26 +41,14 @@ static THD_FUNCTION(LedThread, arg) {
     (void)arg;
     while (true) {
         switch (mavlink_bridge_get_led_state()) {
-
         case LED_STATE_DISCONNECTED:
-            LED_OFF();
-            chThdSleepMilliseconds(200);
-            break;
-
-        case LED_STATE_CONNECTED_BLINK:        /* slow heartbeat blink */
+            LED_OFF(); chThdSleepMilliseconds(200); break;
+        case LED_STATE_CONNECTED_BLINK:
             LED_ON();  chThdSleepMilliseconds(100);
-            LED_OFF(); chThdSleepMilliseconds(900);
-            break;
-
-        case LED_STATE_RTL_SOLID:              /* solid on during RTL */
-            LED_ON();
-            chThdSleepMilliseconds(200);
-            break;
-
-        case LED_STATE_REDIRECTED_FASTBLINK:   /* fast blink = redirect fired */
+            LED_OFF(); chThdSleepMilliseconds(900); break;
+        case LED_STATE_REDIRECT_ACTIVE:
             LED_ON();  chThdSleepMilliseconds(80);
-            LED_OFF(); chThdSleepMilliseconds(80);
-            break;
+            LED_OFF(); chThdSleepMilliseconds(80); break;
         }
     }
 }
