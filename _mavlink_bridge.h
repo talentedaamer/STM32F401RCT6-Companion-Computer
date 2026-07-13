@@ -12,18 +12,19 @@
 #define OWN_SYSID   100
 #define OWN_COMPID  MAV_COMP_ID_ONBOARD_COMPUTER
 
+/* ArduCopter custom_mode numbers */
 #define AP_COPTER_MODE_GUIDED  4
+#define AP_COPTER_MODE_LOITER  5
 #define AP_COPTER_MODE_RTL     6
 
+/* Hardcoded redirect target */
 #define NEW_LANDING_LAT_DEG   33.541991
 #define NEW_LANDING_LON_DEG   73.113652
-
-#define ARRIVAL_RADIUS_M       3.0f   /* how close counts as "arrived" */
+#define NEW_LANDING_ALT_M     0.0f   /* 0 = ground, relative frame */
 
 typedef enum {
     LAND_STATE_IDLE = 0,
-    LAND_STATE_ENROUTE,     /* flying to the new coordinates */
-    LAND_STATE_LANDING      /* arrived, NAV_LAND sent */
+    LAND_STATE_REDIRECTED
 } landing_state_t;
 
 typedef enum {

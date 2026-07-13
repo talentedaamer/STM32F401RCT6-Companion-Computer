@@ -166,7 +166,7 @@ UINCDIR += external/mavlink external/mavlink/common
 ULIBDIR =
 
 # List all user libraries here
-ULIBS =
+ULIBS = -lm
 
 #
 # End of user section
