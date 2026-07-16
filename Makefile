@@ -122,7 +122,8 @@ LDSCRIPT= $(STARTUPLD)/STM32F401xE.ld
 CSRC = $(ALLCSRC) \
        $(TESTSRC) \
        main.c \
-       mavlink_bridge.c
+       mavlink_bridge.c \
+       dummy_obstacle.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.

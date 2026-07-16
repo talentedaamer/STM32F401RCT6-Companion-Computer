@@ -50,4 +50,10 @@ void mavlink_bridge_heartbeat_tick(void);
 /* Poll from your LED thread to decide blink pattern */
 led_status_t mavlink_bridge_get_led_state(void);
 
+/* True from the moment the first HEARTBEAT is ever decoded from the FC
+ * onward (does not clear again on a later link dropout - this is "have we
+ * connected at least once", not "are we connected right now"). Use this to
+ * fire one-shot startup sequencing, e.g. "N seconds after first connect". */
+bool mavlink_bridge_is_connected(void);
+
 #endif

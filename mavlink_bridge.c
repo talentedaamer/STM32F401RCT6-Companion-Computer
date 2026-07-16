@@ -141,6 +141,10 @@ led_status_t mavlink_bridge_get_led_state(void) {
     return LED_STATE_CONNECTED_BLINK;
 }
 
+bool mavlink_bridge_is_connected(void) {
+    return fc.have_heartbeat;
+}
+
 /* Blocking RX loop - runs forever inside its own thread.
  * sdGetTimeout() pulls one byte at a time from ChibiOS's serial input
  * queue (which is already interrupt-fed internally by the driver) - no

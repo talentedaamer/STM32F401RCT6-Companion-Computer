@@ -1,17 +1,25 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (__aeabi_i2f)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (__aeabi_i2f)
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (__aeabi_fdiv)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (__aeabi_fdiv)
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (__aeabi_fcmple)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (__aeabi_fcmple)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (__aeabi_ldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (__aeabi_uldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (memcmp)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (memcmp)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (memcpy)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (memcpy)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
-                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o (memset)
+                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o (memset)
 
 Discarded input sections
 
@@ -21,284 +29,304 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./build/obj/vectors.o
  .data          0x0000000000000000        0x0 ./build/obj/chcoreasm.o
  .bss           0x0000000000000000        0x0 ./build/obj/chcoreasm.o
- .text          0x0000000000000000        0x0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x34 /tmp/ccCaYEv1.debug.temp.o
- .debug_info    0x0000000000000000      0x13e /tmp/ccCZZ1yJ.debug.temp.o
- .debug_abbrev  0x0000000000000000       0xda /tmp/ccCZZ1yJ.debug.temp.o
- .debug_line    0x0000000000000000       0x82 /tmp/ccCZZ1yJ.debug.temp.o
- .debug_str     0x0000000000000000      0x224 /tmp/ccCZZ1yJ.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccCZZ1yJ.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccUPSVhR.debug.temp.o
- .debug_info    0x0000000000000000      0x7ae /tmp/ccKKxWzW.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x13c /tmp/ccKKxWzW.debug.temp.o
- .debug_line    0x0000000000000000       0x9e /tmp/ccKKxWzW.debug.temp.o
- .debug_str     0x0000000000000000      0x378 /tmp/ccKKxWzW.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccKKxWzW.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccCVxvrF.debug.temp.o
- .debug_info    0x0000000000000000      0xbe3 /tmp/cc9heEjQ.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x1be /tmp/cc9heEjQ.debug.temp.o
- .debug_line    0x0000000000000000      0x1e3 /tmp/cc9heEjQ.debug.temp.o
- .debug_str     0x0000000000000000      0x774 /tmp/cc9heEjQ.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc9heEjQ.debug.temp.o
- .debug_info    0x0000000000000000      0xf50 /tmp/cchVIyX1.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x235 /tmp/cchVIyX1.debug.temp.o
- .debug_line    0x0000000000000000      0x1fd /tmp/cchVIyX1.debug.temp.o
- .debug_str     0x0000000000000000      0x8bc /tmp/cchVIyX1.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cchVIyX1.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc3Yj42w.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/ccCB7hU5.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/ccCB7hU5.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/ccCB7hU5.debug.temp.o
- .debug_str     0x0000000000000000      0x1bc /tmp/ccCB7hU5.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccCB7hU5.debug.temp.o
- .debug_info    0x0000000000000000      0x2c5 /tmp/ccH7oG7O.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x112 /tmp/ccH7oG7O.debug.temp.o
- .debug_line    0x0000000000000000       0xe2 /tmp/ccH7oG7O.debug.temp.o
- .debug_str     0x0000000000000000      0x28e /tmp/ccH7oG7O.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccH7oG7O.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccacVsiV.debug.temp.o
- .debug_info    0x0000000000000000      0x5de /tmp/ccVG5Vxb.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x13e /tmp/ccVG5Vxb.debug.temp.o
- .debug_line    0x0000000000000000       0xf3 /tmp/ccVG5Vxb.debug.temp.o
- .debug_str     0x0000000000000000      0x525 /tmp/ccVG5Vxb.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccVG5Vxb.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccro7BGE.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc3MRTxI.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccOu2V63.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/ccVYb4Uz.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/ccVYb4Uz.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/ccVYb4Uz.debug.temp.o
- .debug_str     0x0000000000000000      0x1d0 /tmp/ccVYb4Uz.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccVYb4Uz.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/ccbmEXvx.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/ccbmEXvx.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/ccbmEXvx.debug.temp.o
- .debug_str     0x0000000000000000      0x1ce /tmp/ccbmEXvx.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccbmEXvx.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/ccXVxwq4.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/ccXVxwq4.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/ccXVxwq4.debug.temp.o
- .debug_str     0x0000000000000000      0x1d0 /tmp/ccXVxwq4.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccXVxwq4.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cczQH9J3.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cckgguAU.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccgS0EDL.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccW8u5u9.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/cc27QuIP.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/cc27QuIP.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/cc27QuIP.debug.temp.o
- .debug_str     0x0000000000000000      0x1bf /tmp/cc27QuIP.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc27QuIP.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccdEB0GO.debug.temp.o
- .debug_info    0x0000000000000000      0x85d /tmp/ccEJb1qI.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x1a6 /tmp/ccEJb1qI.debug.temp.o
- .debug_line    0x0000000000000000      0x16f /tmp/ccEJb1qI.debug.temp.o
- .debug_str     0x0000000000000000      0x5cc /tmp/ccEJb1qI.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccEJb1qI.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc790jPU.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/cckWN08z.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/cckWN08z.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/cckWN08z.debug.temp.o
- .debug_str     0x0000000000000000      0x1b9 /tmp/cckWN08z.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cckWN08z.debug.temp.o
- .debug_info    0x0000000000000000       0x79 /tmp/cc76IOuA.debug.temp.o
- .debug_abbrev  0x0000000000000000       0x26 /tmp/cc76IOuA.debug.temp.o
- .debug_line    0x0000000000000000       0x1e /tmp/cc76IOuA.debug.temp.o
- .debug_str     0x0000000000000000      0x1b9 /tmp/cc76IOuA.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc76IOuA.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cciAKKop.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccnmEGiL.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc1n3XS9.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccB58b4b.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cczW0T6j.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccEZGaYz.debug.temp.o
- .debug_info    0x0000000000000000      0xbcc /tmp/cca3TXhG.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x246 /tmp/cca3TXhG.debug.temp.o
- .debug_line    0x0000000000000000      0x1aa /tmp/cca3TXhG.debug.temp.o
- .debug_str     0x0000000000000000      0x71f /tmp/cca3TXhG.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cca3TXhG.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccjdDL7m.debug.temp.o
- .debug_info    0x0000000000000000      0xb84 /tmp/cctcNOJC.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x25a /tmp/cctcNOJC.debug.temp.o
- .debug_line    0x0000000000000000      0x1d1 /tmp/cctcNOJC.debug.temp.o
- .debug_str     0x0000000000000000      0x73c /tmp/cctcNOJC.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cctcNOJC.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccuIzlOh.debug.temp.o
- .debug_info    0x0000000000000000      0x9e2 /tmp/cc73Qqtj.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x23d /tmp/cc73Qqtj.debug.temp.o
- .debug_line    0x0000000000000000      0x1b5 /tmp/cc73Qqtj.debug.temp.o
- .debug_str     0x0000000000000000      0x67a /tmp/cc73Qqtj.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc73Qqtj.debug.temp.o
- .debug_info    0x0000000000000000      0xbc9 /tmp/ccx3fmEQ.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x20f /tmp/ccx3fmEQ.debug.temp.o
- .debug_line    0x0000000000000000      0x214 /tmp/ccx3fmEQ.debug.temp.o
- .debug_str     0x0000000000000000      0x72b /tmp/ccx3fmEQ.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccx3fmEQ.debug.temp.o
- .debug_info    0x0000000000000000      0x39c /tmp/ccZuGP3j.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x142 /tmp/ccZuGP3j.debug.temp.o
- .debug_line    0x0000000000000000       0xb2 /tmp/ccZuGP3j.debug.temp.o
- .debug_str     0x0000000000000000      0x303 /tmp/ccZuGP3j.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccZuGP3j.debug.temp.o
- .debug_info    0x0000000000000000      0xc4e /tmp/ccIDF3b0.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x21d /tmp/ccIDF3b0.debug.temp.o
- .debug_line    0x0000000000000000      0x1d5 /tmp/ccIDF3b0.debug.temp.o
- .debug_str     0x0000000000000000      0x721 /tmp/ccIDF3b0.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccIDF3b0.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccnoSnD0.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccMuHnXT.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccA6e33W.debug.temp.o
- .debug_info    0x0000000000000000      0xb02 /tmp/cczxXYem.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x20d /tmp/cczxXYem.debug.temp.o
- .debug_line    0x0000000000000000      0x1d3 /tmp/cczxXYem.debug.temp.o
- .debug_str     0x0000000000000000      0x69c /tmp/cczxXYem.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cczxXYem.debug.temp.o
- .debug_info    0x0000000000000000      0xc81 /tmp/cciGPbhC.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x24b /tmp/cciGPbhC.debug.temp.o
- .debug_line    0x0000000000000000      0x1db /tmp/cciGPbhC.debug.temp.o
- .debug_str     0x0000000000000000      0x79d /tmp/cciGPbhC.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cciGPbhC.debug.temp.o
- .debug_info    0x0000000000000000      0xba7 /tmp/ccrrRZXg.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x22e /tmp/ccrrRZXg.debug.temp.o
- .debug_line    0x0000000000000000      0x1f4 /tmp/ccrrRZXg.debug.temp.o
- .debug_str     0x0000000000000000      0x73e /tmp/ccrrRZXg.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccrrRZXg.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccoI9ag0.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccwvZ4sM.debug.temp.o
- .debug_info    0x0000000000000000      0x6af /tmp/ccVQhq6D.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x212 /tmp/ccVQhq6D.debug.temp.o
- .debug_line    0x0000000000000000      0x143 /tmp/ccVQhq6D.debug.temp.o
- .debug_str     0x0000000000000000      0x558 /tmp/ccVQhq6D.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccVQhq6D.debug.temp.o
- .debug_info    0x0000000000000000      0x47c /tmp/ccS0VDfw.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x1c2 /tmp/ccS0VDfw.debug.temp.o
- .debug_line    0x0000000000000000      0x116 /tmp/ccS0VDfw.debug.temp.o
- .debug_str     0x0000000000000000      0x36e /tmp/ccS0VDfw.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccS0VDfw.debug.temp.o
- .debug_info    0x0000000000000000      0xa62 /tmp/cc4Uj4Z1.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x23e /tmp/cc4Uj4Z1.debug.temp.o
- .debug_line    0x0000000000000000      0x360 /tmp/cc4Uj4Z1.debug.temp.o
- .debug_str     0x0000000000000000      0x7d9 /tmp/cc4Uj4Z1.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc4Uj4Z1.debug.temp.o
- .debug_info    0x0000000000000000      0x3e0 /tmp/ccP6azdP.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x168 /tmp/ccP6azdP.debug.temp.o
- .debug_line    0x0000000000000000      0x124 /tmp/ccP6azdP.debug.temp.o
- .debug_str     0x0000000000000000      0x3c9 /tmp/ccP6azdP.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccP6azdP.debug.temp.o
- .debug_info    0x0000000000000000      0xd51 /tmp/ccwaSeue.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x256 /tmp/ccwaSeue.debug.temp.o
- .debug_line    0x0000000000000000      0x233 /tmp/ccwaSeue.debug.temp.o
- .debug_str     0x0000000000000000      0x943 /tmp/ccwaSeue.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccwaSeue.debug.temp.o
- .debug_info    0x0000000000000000      0x41b /tmp/ccvdwyhf.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x178 /tmp/ccvdwyhf.debug.temp.o
- .debug_line    0x0000000000000000      0x168 /tmp/ccvdwyhf.debug.temp.o
- .debug_str     0x0000000000000000      0x3c5 /tmp/ccvdwyhf.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccvdwyhf.debug.temp.o
- .debug_info    0x0000000000000000      0xb9e /tmp/ccyU2qKI.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x281 /tmp/ccyU2qKI.debug.temp.o
- .debug_line    0x0000000000000000      0x261 /tmp/ccyU2qKI.debug.temp.o
- .debug_str     0x0000000000000000      0x7f5 /tmp/ccyU2qKI.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccyU2qKI.debug.temp.o
- .debug_info    0x0000000000000000      0xbcc /tmp/ccIbwIRF.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x27a /tmp/ccIbwIRF.debug.temp.o
- .debug_line    0x0000000000000000      0x282 /tmp/ccIbwIRF.debug.temp.o
- .debug_str     0x0000000000000000      0x839 /tmp/ccIbwIRF.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccIbwIRF.debug.temp.o
- .debug_info    0x0000000000000000      0xb71 /tmp/ccbWEcdV.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x25c /tmp/ccbWEcdV.debug.temp.o
- .debug_line    0x0000000000000000      0x282 /tmp/ccbWEcdV.debug.temp.o
- .debug_str     0x0000000000000000      0x7d8 /tmp/ccbWEcdV.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccbWEcdV.debug.temp.o
- .debug_info    0x0000000000000000      0xe0d /tmp/ccba6FQd.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x2b2 /tmp/ccba6FQd.debug.temp.o
- .debug_line    0x0000000000000000      0x296 /tmp/ccba6FQd.debug.temp.o
- .debug_str     0x0000000000000000      0xa18 /tmp/ccba6FQd.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccba6FQd.debug.temp.o
- .debug_info    0x0000000000000000      0xd21 /tmp/ccTwadsR.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x27f /tmp/ccTwadsR.debug.temp.o
- .debug_line    0x0000000000000000      0x256 /tmp/ccTwadsR.debug.temp.o
- .debug_str     0x0000000000000000      0x942 /tmp/ccTwadsR.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccTwadsR.debug.temp.o
- .debug_info    0x0000000000000000      0xb6e /tmp/ccPkTRqE.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x252 /tmp/ccPkTRqE.debug.temp.o
- .debug_line    0x0000000000000000      0x255 /tmp/ccPkTRqE.debug.temp.o
- .debug_str     0x0000000000000000      0x785 /tmp/ccPkTRqE.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccPkTRqE.debug.temp.o
- .debug_info    0x0000000000000000      0xe6e /tmp/ccqsFbai.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x29c /tmp/ccqsFbai.debug.temp.o
- .debug_line    0x0000000000000000      0x27e /tmp/ccqsFbai.debug.temp.o
- .debug_str     0x0000000000000000      0x9f0 /tmp/ccqsFbai.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccqsFbai.debug.temp.o
- .debug_info    0x0000000000000000      0xd56 /tmp/ccZuemE5.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x238 /tmp/ccZuemE5.debug.temp.o
- .debug_line    0x0000000000000000      0x267 /tmp/ccZuemE5.debug.temp.o
- .debug_str     0x0000000000000000      0x87b /tmp/ccZuemE5.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccZuemE5.debug.temp.o
- .debug_info    0x0000000000000000     0x10c0 /tmp/ccfo5eOk.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x2c5 /tmp/ccfo5eOk.debug.temp.o
- .debug_line    0x0000000000000000      0x28d /tmp/ccfo5eOk.debug.temp.o
- .debug_str     0x0000000000000000      0xae1 /tmp/ccfo5eOk.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccfo5eOk.debug.temp.o
- .debug_info    0x0000000000000000      0x207 /tmp/ccVmmnUg.debug.temp.o
- .debug_abbrev  0x0000000000000000       0xaf /tmp/ccVmmnUg.debug.temp.o
- .debug_line    0x0000000000000000      0x193 /tmp/ccVmmnUg.debug.temp.o
- .debug_str     0x0000000000000000      0x320 /tmp/ccVmmnUg.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccVmmnUg.debug.temp.o
- .debug_info    0x0000000000000000      0x3dd /tmp/ccqUraQh.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x159 /tmp/ccqUraQh.debug.temp.o
- .debug_line    0x0000000000000000      0x12d /tmp/ccqUraQh.debug.temp.o
- .debug_str     0x0000000000000000      0x3e7 /tmp/ccqUraQh.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccqUraQh.debug.temp.o
- .debug_info    0x0000000000000000      0xcb9 /tmp/ccpQMF5Y.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x256 /tmp/ccpQMF5Y.debug.temp.o
- .debug_line    0x0000000000000000      0x280 /tmp/ccpQMF5Y.debug.temp.o
- .debug_str     0x0000000000000000      0x8fa /tmp/ccpQMF5Y.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccpQMF5Y.debug.temp.o
- .debug_info    0x0000000000000000      0xc85 /tmp/ccSWwyAN.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x213 /tmp/ccSWwyAN.debug.temp.o
- .debug_line    0x0000000000000000      0x211 /tmp/ccSWwyAN.debug.temp.o
- .debug_str     0x0000000000000000      0x7b4 /tmp/ccSWwyAN.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccSWwyAN.debug.temp.o
- .debug_info    0x0000000000000000     0x102a /tmp/cc7ybcWI.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x2a7 /tmp/cc7ybcWI.debug.temp.o
- .debug_line    0x0000000000000000      0x294 /tmp/cc7ybcWI.debug.temp.o
- .debug_str     0x0000000000000000      0x9a0 /tmp/cc7ybcWI.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cc7ybcWI.debug.temp.o
- .debug_info    0x0000000000000000      0xdfa /tmp/ccXigrrz.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x238 /tmp/ccXigrrz.debug.temp.o
- .debug_line    0x0000000000000000      0x22f /tmp/ccXigrrz.debug.temp.o
- .debug_str     0x0000000000000000      0x872 /tmp/ccXigrrz.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccXigrrz.debug.temp.o
- .debug_info    0x0000000000000000      0xe73 /tmp/ccbunk2A.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x262 /tmp/ccbunk2A.debug.temp.o
- .debug_line    0x0000000000000000      0x25d /tmp/ccbunk2A.debug.temp.o
- .debug_str     0x0000000000000000      0x8c8 /tmp/ccbunk2A.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccbunk2A.debug.temp.o
- .debug_info    0x0000000000000000      0x5f6 /tmp/cctv1Y59.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x18a /tmp/cctv1Y59.debug.temp.o
- .debug_line    0x0000000000000000      0x18a /tmp/cctv1Y59.debug.temp.o
- .debug_str     0x0000000000000000      0x51f /tmp/cctv1Y59.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/cctv1Y59.debug.temp.o
- .debug_info    0x0000000000000000      0xc2f /tmp/ccY7Phii.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x21f /tmp/ccY7Phii.debug.temp.o
- .debug_line    0x0000000000000000      0x234 /tmp/ccY7Phii.debug.temp.o
- .debug_str     0x0000000000000000      0x815 /tmp/ccY7Phii.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccY7Phii.debug.temp.o
- .debug_info    0x0000000000000000     0x10bf /tmp/ccSPytdd.debug.temp.o
- .debug_abbrev  0x0000000000000000      0x1f5 /tmp/ccSPytdd.debug.temp.o
- .debug_line    0x0000000000000000      0x25d /tmp/ccSPytdd.debug.temp.o
- .debug_str     0x0000000000000000      0xac5 /tmp/ccSPytdd.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccSPytdd.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccLssBSf.debug.temp.o
- .comment       0x0000000000000000       0x34 /tmp/ccTatrTm.debug.temp.o
+ .text          0x0000000000000000        0x0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x34 /tmp/cc2cgvP9.debug.temp.o
+ .debug_info    0x0000000000000000      0x13e /tmp/ccoMEAYc.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xda /tmp/ccoMEAYc.debug.temp.o
+ .debug_line    0x0000000000000000       0x82 /tmp/ccoMEAYc.debug.temp.o
+ .debug_str     0x0000000000000000      0x224 /tmp/ccoMEAYc.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccoMEAYc.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccEMG2Gi.debug.temp.o
+ .debug_info    0x0000000000000000      0x7ae /tmp/ccayQK9f.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x13c /tmp/ccayQK9f.debug.temp.o
+ .debug_line    0x0000000000000000       0x9e /tmp/ccayQK9f.debug.temp.o
+ .debug_str     0x0000000000000000      0x378 /tmp/ccayQK9f.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccayQK9f.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccbGyx2Z.debug.temp.o
+ .debug_info    0x0000000000000000      0xbe3 /tmp/ccbh8okQ.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1be /tmp/ccbh8okQ.debug.temp.o
+ .debug_line    0x0000000000000000      0x1e3 /tmp/ccbh8okQ.debug.temp.o
+ .debug_str     0x0000000000000000      0x774 /tmp/ccbh8okQ.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccbh8okQ.debug.temp.o
+ .debug_info    0x0000000000000000      0xf50 /tmp/cchdh0G9.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x235 /tmp/cchdh0G9.debug.temp.o
+ .debug_line    0x0000000000000000      0x1fd /tmp/cchdh0G9.debug.temp.o
+ .debug_str     0x0000000000000000      0x8bc /tmp/cchdh0G9.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cchdh0G9.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccmCEJS7.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/ccN2HjPN.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/ccN2HjPN.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/ccN2HjPN.debug.temp.o
+ .debug_str     0x0000000000000000      0x1bc /tmp/ccN2HjPN.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccN2HjPN.debug.temp.o
+ .debug_info    0x0000000000000000      0x2c5 /tmp/ccPwQv8R.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x112 /tmp/ccPwQv8R.debug.temp.o
+ .debug_line    0x0000000000000000       0xe2 /tmp/ccPwQv8R.debug.temp.o
+ .debug_str     0x0000000000000000      0x28e /tmp/ccPwQv8R.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccPwQv8R.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc2F0L60.debug.temp.o
+ .debug_info    0x0000000000000000      0x5de /tmp/ccX3rblu.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x13e /tmp/ccX3rblu.debug.temp.o
+ .debug_line    0x0000000000000000       0xf3 /tmp/ccX3rblu.debug.temp.o
+ .debug_str     0x0000000000000000      0x525 /tmp/ccX3rblu.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccX3rblu.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccvoZiRH.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccNHyMMk.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc5sZpfG.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/cchNJ4m0.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/cchNJ4m0.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/cchNJ4m0.debug.temp.o
+ .debug_str     0x0000000000000000      0x1d0 /tmp/cchNJ4m0.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cchNJ4m0.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/cccbdXTG.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/cccbdXTG.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/cccbdXTG.debug.temp.o
+ .debug_str     0x0000000000000000      0x1ce /tmp/cccbdXTG.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cccbdXTG.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/cceHnLRF.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/cceHnLRF.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/cceHnLRF.debug.temp.o
+ .debug_str     0x0000000000000000      0x1d0 /tmp/cceHnLRF.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cceHnLRF.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc4t352Z.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc8cZpg5.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccmf180Y.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc1LdJw9.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/ccFXAumx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/ccFXAumx.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/ccFXAumx.debug.temp.o
+ .debug_str     0x0000000000000000      0x1bf /tmp/ccFXAumx.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccFXAumx.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccC71L2Y.debug.temp.o
+ .debug_info    0x0000000000000000      0x85d /tmp/ccofWh0y.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1a6 /tmp/ccofWh0y.debug.temp.o
+ .debug_line    0x0000000000000000      0x16f /tmp/ccofWh0y.debug.temp.o
+ .debug_str     0x0000000000000000      0x5cc /tmp/ccofWh0y.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccofWh0y.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccujpKVw.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/ccr8HEvB.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/ccr8HEvB.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/ccr8HEvB.debug.temp.o
+ .debug_str     0x0000000000000000      0x1b9 /tmp/ccr8HEvB.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccr8HEvB.debug.temp.o
+ .debug_info    0x0000000000000000       0x79 /tmp/cc0dFoSv.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x26 /tmp/cc0dFoSv.debug.temp.o
+ .debug_line    0x0000000000000000       0x1e /tmp/cc0dFoSv.debug.temp.o
+ .debug_str     0x0000000000000000      0x1b9 /tmp/cc0dFoSv.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc0dFoSv.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cct24BHY.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccsRuVN5.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccncdmWQ.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccMIyhC1.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccuTQSO6.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccJfairH.debug.temp.o
+ .debug_info    0x0000000000000000      0xbcc /tmp/ccxGPELi.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x246 /tmp/ccxGPELi.debug.temp.o
+ .debug_line    0x0000000000000000      0x1aa /tmp/ccxGPELi.debug.temp.o
+ .debug_str     0x0000000000000000      0x71f /tmp/ccxGPELi.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccxGPELi.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccL8n7h9.debug.temp.o
+ .debug_info    0x0000000000000000      0xb84 /tmp/ccspuG3G.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x25a /tmp/ccspuG3G.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d1 /tmp/ccspuG3G.debug.temp.o
+ .debug_str     0x0000000000000000      0x73c /tmp/ccspuG3G.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccspuG3G.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cchY73CU.debug.temp.o
+ .debug_info    0x0000000000000000      0x9e2 /tmp/ccmhFhWq.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x23d /tmp/ccmhFhWq.debug.temp.o
+ .debug_line    0x0000000000000000      0x1b5 /tmp/ccmhFhWq.debug.temp.o
+ .debug_str     0x0000000000000000      0x67a /tmp/ccmhFhWq.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccmhFhWq.debug.temp.o
+ .debug_info    0x0000000000000000      0xbc9 /tmp/ccCScWAY.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20f /tmp/ccCScWAY.debug.temp.o
+ .debug_line    0x0000000000000000      0x214 /tmp/ccCScWAY.debug.temp.o
+ .debug_str     0x0000000000000000      0x72b /tmp/ccCScWAY.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccCScWAY.debug.temp.o
+ .debug_info    0x0000000000000000      0x39c /tmp/ccpLlntk.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x142 /tmp/ccpLlntk.debug.temp.o
+ .debug_line    0x0000000000000000       0xb2 /tmp/ccpLlntk.debug.temp.o
+ .debug_str     0x0000000000000000      0x303 /tmp/ccpLlntk.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccpLlntk.debug.temp.o
+ .debug_info    0x0000000000000000      0xc4e /tmp/ccXKOxST.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x21d /tmp/ccXKOxST.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d5 /tmp/ccXKOxST.debug.temp.o
+ .debug_str     0x0000000000000000      0x721 /tmp/ccXKOxST.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccXKOxST.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc3VmrI6.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cckEunZs.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cczVKbmG.debug.temp.o
+ .debug_info    0x0000000000000000      0xb02 /tmp/ccKXbIRg.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x20d /tmp/ccKXbIRg.debug.temp.o
+ .debug_line    0x0000000000000000      0x1d3 /tmp/ccKXbIRg.debug.temp.o
+ .debug_str     0x0000000000000000      0x69c /tmp/ccKXbIRg.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccKXbIRg.debug.temp.o
+ .debug_info    0x0000000000000000      0xc81 /tmp/ccNzGk3A.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x24b /tmp/ccNzGk3A.debug.temp.o
+ .debug_line    0x0000000000000000      0x1db /tmp/ccNzGk3A.debug.temp.o
+ .debug_str     0x0000000000000000      0x79d /tmp/ccNzGk3A.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccNzGk3A.debug.temp.o
+ .debug_info    0x0000000000000000      0xba7 /tmp/ccCqaGl2.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x22e /tmp/ccCqaGl2.debug.temp.o
+ .debug_line    0x0000000000000000      0x1f4 /tmp/ccCqaGl2.debug.temp.o
+ .debug_str     0x0000000000000000      0x73e /tmp/ccCqaGl2.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccCqaGl2.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccSzsRMo.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc2KGhQe.debug.temp.o
+ .debug_info    0x0000000000000000      0x6af /tmp/cchNkVJA.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x212 /tmp/cchNkVJA.debug.temp.o
+ .debug_line    0x0000000000000000      0x143 /tmp/cchNkVJA.debug.temp.o
+ .debug_str     0x0000000000000000      0x558 /tmp/cchNkVJA.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cchNkVJA.debug.temp.o
+ .debug_info    0x0000000000000000      0x47c /tmp/cc7daSFL.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1c2 /tmp/cc7daSFL.debug.temp.o
+ .debug_line    0x0000000000000000      0x116 /tmp/cc7daSFL.debug.temp.o
+ .debug_str     0x0000000000000000      0x36e /tmp/cc7daSFL.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc7daSFL.debug.temp.o
+ .debug_info    0x0000000000000000      0xa62 /tmp/ccodtS8D.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x23e /tmp/ccodtS8D.debug.temp.o
+ .debug_line    0x0000000000000000      0x360 /tmp/ccodtS8D.debug.temp.o
+ .debug_str     0x0000000000000000      0x7d9 /tmp/ccodtS8D.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccodtS8D.debug.temp.o
+ .debug_info    0x0000000000000000      0x3e0 /tmp/ccHHj529.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x168 /tmp/ccHHj529.debug.temp.o
+ .debug_line    0x0000000000000000      0x124 /tmp/ccHHj529.debug.temp.o
+ .debug_str     0x0000000000000000      0x3c9 /tmp/ccHHj529.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccHHj529.debug.temp.o
+ .debug_info    0x0000000000000000      0xd51 /tmp/ccVTc6pw.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x256 /tmp/ccVTc6pw.debug.temp.o
+ .debug_line    0x0000000000000000      0x233 /tmp/ccVTc6pw.debug.temp.o
+ .debug_str     0x0000000000000000      0x943 /tmp/ccVTc6pw.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccVTc6pw.debug.temp.o
+ .debug_info    0x0000000000000000      0x41b /tmp/ccyEe7xN.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x178 /tmp/ccyEe7xN.debug.temp.o
+ .debug_line    0x0000000000000000      0x168 /tmp/ccyEe7xN.debug.temp.o
+ .debug_str     0x0000000000000000      0x3c5 /tmp/ccyEe7xN.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccyEe7xN.debug.temp.o
+ .debug_info    0x0000000000000000      0xb9e /tmp/cc6S2cxK.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x281 /tmp/cc6S2cxK.debug.temp.o
+ .debug_line    0x0000000000000000      0x261 /tmp/cc6S2cxK.debug.temp.o
+ .debug_str     0x0000000000000000      0x7f5 /tmp/cc6S2cxK.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc6S2cxK.debug.temp.o
+ .debug_info    0x0000000000000000      0xbcc /tmp/ccZuuKjf.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x27a /tmp/ccZuuKjf.debug.temp.o
+ .debug_line    0x0000000000000000      0x282 /tmp/ccZuuKjf.debug.temp.o
+ .debug_str     0x0000000000000000      0x839 /tmp/ccZuuKjf.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccZuuKjf.debug.temp.o
+ .debug_info    0x0000000000000000      0xb71 /tmp/ccMEE3IF.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x25c /tmp/ccMEE3IF.debug.temp.o
+ .debug_line    0x0000000000000000      0x282 /tmp/ccMEE3IF.debug.temp.o
+ .debug_str     0x0000000000000000      0x7d8 /tmp/ccMEE3IF.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccMEE3IF.debug.temp.o
+ .debug_info    0x0000000000000000      0xe0d /tmp/ccns9e8p.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b2 /tmp/ccns9e8p.debug.temp.o
+ .debug_line    0x0000000000000000      0x296 /tmp/ccns9e8p.debug.temp.o
+ .debug_str     0x0000000000000000      0xa18 /tmp/ccns9e8p.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccns9e8p.debug.temp.o
+ .debug_info    0x0000000000000000      0xd21 /tmp/cc4jCeHT.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x27f /tmp/cc4jCeHT.debug.temp.o
+ .debug_line    0x0000000000000000      0x256 /tmp/cc4jCeHT.debug.temp.o
+ .debug_str     0x0000000000000000      0x942 /tmp/cc4jCeHT.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc4jCeHT.debug.temp.o
+ .debug_info    0x0000000000000000      0xb6e /tmp/cch1G0Zj.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x252 /tmp/cch1G0Zj.debug.temp.o
+ .debug_line    0x0000000000000000      0x255 /tmp/cch1G0Zj.debug.temp.o
+ .debug_str     0x0000000000000000      0x785 /tmp/cch1G0Zj.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cch1G0Zj.debug.temp.o
+ .debug_info    0x0000000000000000      0xe6e /tmp/ccNecj5c.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x29c /tmp/ccNecj5c.debug.temp.o
+ .debug_line    0x0000000000000000      0x27e /tmp/ccNecj5c.debug.temp.o
+ .debug_str     0x0000000000000000      0x9f0 /tmp/ccNecj5c.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccNecj5c.debug.temp.o
+ .debug_info    0x0000000000000000      0xd56 /tmp/ccGJnw7b.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x238 /tmp/ccGJnw7b.debug.temp.o
+ .debug_line    0x0000000000000000      0x267 /tmp/ccGJnw7b.debug.temp.o
+ .debug_str     0x0000000000000000      0x87b /tmp/ccGJnw7b.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccGJnw7b.debug.temp.o
+ .debug_info    0x0000000000000000     0x10c0 /tmp/cce2Wv3v.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2c5 /tmp/cce2Wv3v.debug.temp.o
+ .debug_line    0x0000000000000000      0x28d /tmp/cce2Wv3v.debug.temp.o
+ .debug_str     0x0000000000000000      0xae1 /tmp/cce2Wv3v.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cce2Wv3v.debug.temp.o
+ .debug_info    0x0000000000000000      0x207 /tmp/ccUmAG1H.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xaf /tmp/ccUmAG1H.debug.temp.o
+ .debug_line    0x0000000000000000      0x193 /tmp/ccUmAG1H.debug.temp.o
+ .debug_str     0x0000000000000000      0x320 /tmp/ccUmAG1H.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccUmAG1H.debug.temp.o
+ .debug_info    0x0000000000000000      0x3dd /tmp/ccaIwGGG.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x159 /tmp/ccaIwGGG.debug.temp.o
+ .debug_line    0x0000000000000000      0x12d /tmp/ccaIwGGG.debug.temp.o
+ .debug_str     0x0000000000000000      0x3e7 /tmp/ccaIwGGG.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccaIwGGG.debug.temp.o
+ .debug_info    0x0000000000000000      0xcb9 /tmp/ccpfApIj.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x256 /tmp/ccpfApIj.debug.temp.o
+ .debug_line    0x0000000000000000      0x280 /tmp/ccpfApIj.debug.temp.o
+ .debug_str     0x0000000000000000      0x8fa /tmp/ccpfApIj.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccpfApIj.debug.temp.o
+ .debug_info    0x0000000000000000      0xc85 /tmp/ccZlvCpN.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x213 /tmp/ccZlvCpN.debug.temp.o
+ .debug_line    0x0000000000000000      0x211 /tmp/ccZlvCpN.debug.temp.o
+ .debug_str     0x0000000000000000      0x7b4 /tmp/ccZlvCpN.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccZlvCpN.debug.temp.o
+ .debug_info    0x0000000000000000     0x102a /tmp/cch03pIP.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2a7 /tmp/cch03pIP.debug.temp.o
+ .debug_line    0x0000000000000000      0x294 /tmp/cch03pIP.debug.temp.o
+ .debug_str     0x0000000000000000      0x9a0 /tmp/cch03pIP.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cch03pIP.debug.temp.o
+ .debug_info    0x0000000000000000      0xdfa /tmp/ccclJa9q.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x238 /tmp/ccclJa9q.debug.temp.o
+ .debug_line    0x0000000000000000      0x22f /tmp/ccclJa9q.debug.temp.o
+ .debug_str     0x0000000000000000      0x872 /tmp/ccclJa9q.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccclJa9q.debug.temp.o
+ .debug_info    0x0000000000000000      0xe73 /tmp/ccqBTeIT.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x262 /tmp/ccqBTeIT.debug.temp.o
+ .debug_line    0x0000000000000000      0x25d /tmp/ccqBTeIT.debug.temp.o
+ .debug_str     0x0000000000000000      0x8c8 /tmp/ccqBTeIT.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccqBTeIT.debug.temp.o
+ .debug_info    0x0000000000000000      0x5f6 /tmp/ccwtnPLS.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x18a /tmp/ccwtnPLS.debug.temp.o
+ .debug_line    0x0000000000000000      0x18a /tmp/ccwtnPLS.debug.temp.o
+ .debug_str     0x0000000000000000      0x51f /tmp/ccwtnPLS.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccwtnPLS.debug.temp.o
+ .debug_info    0x0000000000000000      0xc2f /tmp/ccyAsgOx.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x21f /tmp/ccyAsgOx.debug.temp.o
+ .debug_line    0x0000000000000000      0x234 /tmp/ccyAsgOx.debug.temp.o
+ .debug_str     0x0000000000000000      0x815 /tmp/ccyAsgOx.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccyAsgOx.debug.temp.o
+ .debug_info    0x0000000000000000     0x10bf /tmp/cc2R6g1s.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1f5 /tmp/cc2R6g1s.debug.temp.o
+ .debug_line    0x0000000000000000      0x25d /tmp/cc2R6g1s.debug.temp.o
+ .debug_str     0x0000000000000000      0xac5 /tmp/cc2R6g1s.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/cc2R6g1s.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccoN4Ed5.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccZLmeaC.debug.temp.o
+ .comment       0x0000000000000000       0x34 /tmp/ccKTeHqP.debug.temp.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .text          0x0000000000000000       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x0000000000000000       0x7e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_str     0x0000000000000000       0xa3 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x0000000000000000       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
@@ -333,84 +361,85 @@ LOAD ./build/obj/crt0_v7m.o
 LOAD ./build/obj/vectors.o
 LOAD ./build/obj/chcoreasm.o
 LOAD ./build/obj/crt1.o
-LOAD /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-LOAD /tmp/ccCaYEv1.debug.temp.o
-LOAD /tmp/ccCZZ1yJ.debug.temp.o
-LOAD /tmp/ccUPSVhR.debug.temp.o
-LOAD /tmp/ccKKxWzW.debug.temp.o
-LOAD /tmp/ccCVxvrF.debug.temp.o
-LOAD /tmp/cc9heEjQ.debug.temp.o
-LOAD /tmp/cchVIyX1.debug.temp.o
-LOAD /tmp/cc3Yj42w.debug.temp.o
-LOAD /tmp/ccCB7hU5.debug.temp.o
-LOAD /tmp/ccH7oG7O.debug.temp.o
-LOAD /tmp/ccacVsiV.debug.temp.o
-LOAD /tmp/ccVG5Vxb.debug.temp.o
-LOAD /tmp/ccro7BGE.debug.temp.o
-LOAD /tmp/cc3MRTxI.debug.temp.o
-LOAD /tmp/ccOu2V63.debug.temp.o
-LOAD /tmp/ccVYb4Uz.debug.temp.o
-LOAD /tmp/ccbmEXvx.debug.temp.o
-LOAD /tmp/ccXVxwq4.debug.temp.o
-LOAD /tmp/cczQH9J3.debug.temp.o
-LOAD /tmp/cckgguAU.debug.temp.o
-LOAD /tmp/ccgS0EDL.debug.temp.o
-LOAD /tmp/ccW8u5u9.debug.temp.o
-LOAD /tmp/cc27QuIP.debug.temp.o
-LOAD /tmp/ccdEB0GO.debug.temp.o
-LOAD /tmp/ccEJb1qI.debug.temp.o
-LOAD /tmp/cc790jPU.debug.temp.o
-LOAD /tmp/cckWN08z.debug.temp.o
-LOAD /tmp/cc76IOuA.debug.temp.o
-LOAD /tmp/cciAKKop.debug.temp.o
-LOAD /tmp/ccnmEGiL.debug.temp.o
-LOAD /tmp/cc1n3XS9.debug.temp.o
-LOAD /tmp/ccB58b4b.debug.temp.o
-LOAD /tmp/cczW0T6j.debug.temp.o
-LOAD /tmp/ccEZGaYz.debug.temp.o
-LOAD /tmp/cca3TXhG.debug.temp.o
-LOAD /tmp/ccjdDL7m.debug.temp.o
-LOAD /tmp/cctcNOJC.debug.temp.o
-LOAD /tmp/ccuIzlOh.debug.temp.o
-LOAD /tmp/cc73Qqtj.debug.temp.o
-LOAD /tmp/ccx3fmEQ.debug.temp.o
-LOAD /tmp/ccZuGP3j.debug.temp.o
-LOAD /tmp/ccIDF3b0.debug.temp.o
-LOAD /tmp/ccnoSnD0.debug.temp.o
-LOAD /tmp/ccMuHnXT.debug.temp.o
-LOAD /tmp/ccA6e33W.debug.temp.o
-LOAD /tmp/cczxXYem.debug.temp.o
-LOAD /tmp/cciGPbhC.debug.temp.o
-LOAD /tmp/ccrrRZXg.debug.temp.o
-LOAD /tmp/ccoI9ag0.debug.temp.o
-LOAD /tmp/ccwvZ4sM.debug.temp.o
-LOAD /tmp/ccVQhq6D.debug.temp.o
-LOAD /tmp/ccS0VDfw.debug.temp.o
-LOAD /tmp/cc4Uj4Z1.debug.temp.o
-LOAD /tmp/ccP6azdP.debug.temp.o
-LOAD /tmp/ccwaSeue.debug.temp.o
-LOAD /tmp/ccvdwyhf.debug.temp.o
-LOAD /tmp/ccyU2qKI.debug.temp.o
-LOAD /tmp/ccIbwIRF.debug.temp.o
-LOAD /tmp/ccbWEcdV.debug.temp.o
-LOAD /tmp/ccba6FQd.debug.temp.o
-LOAD /tmp/ccTwadsR.debug.temp.o
-LOAD /tmp/ccPkTRqE.debug.temp.o
-LOAD /tmp/ccqsFbai.debug.temp.o
-LOAD /tmp/ccZuemE5.debug.temp.o
-LOAD /tmp/ccfo5eOk.debug.temp.o
-LOAD /tmp/ccVmmnUg.debug.temp.o
-LOAD /tmp/ccqUraQh.debug.temp.o
-LOAD /tmp/ccpQMF5Y.debug.temp.o
-LOAD /tmp/ccSWwyAN.debug.temp.o
-LOAD /tmp/cc7ybcWI.debug.temp.o
-LOAD /tmp/ccXigrrz.debug.temp.o
-LOAD /tmp/ccbunk2A.debug.temp.o
-LOAD /tmp/cctv1Y59.debug.temp.o
-LOAD /tmp/ccY7Phii.debug.temp.o
-LOAD /tmp/ccSPytdd.debug.temp.o
-LOAD /tmp/ccLssBSf.debug.temp.o
-LOAD /tmp/ccTatrTm.debug.temp.o
+LOAD /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+LOAD /tmp/cc2cgvP9.debug.temp.o
+LOAD /tmp/ccoMEAYc.debug.temp.o
+LOAD /tmp/ccEMG2Gi.debug.temp.o
+LOAD /tmp/ccayQK9f.debug.temp.o
+LOAD /tmp/ccbGyx2Z.debug.temp.o
+LOAD /tmp/ccbh8okQ.debug.temp.o
+LOAD /tmp/cchdh0G9.debug.temp.o
+LOAD /tmp/ccmCEJS7.debug.temp.o
+LOAD /tmp/ccN2HjPN.debug.temp.o
+LOAD /tmp/ccPwQv8R.debug.temp.o
+LOAD /tmp/cc2F0L60.debug.temp.o
+LOAD /tmp/ccX3rblu.debug.temp.o
+LOAD /tmp/ccvoZiRH.debug.temp.o
+LOAD /tmp/ccNHyMMk.debug.temp.o
+LOAD /tmp/cc5sZpfG.debug.temp.o
+LOAD /tmp/cchNJ4m0.debug.temp.o
+LOAD /tmp/cccbdXTG.debug.temp.o
+LOAD /tmp/cceHnLRF.debug.temp.o
+LOAD /tmp/cc4t352Z.debug.temp.o
+LOAD /tmp/cc8cZpg5.debug.temp.o
+LOAD /tmp/ccmf180Y.debug.temp.o
+LOAD /tmp/cc1LdJw9.debug.temp.o
+LOAD /tmp/ccFXAumx.debug.temp.o
+LOAD /tmp/ccC71L2Y.debug.temp.o
+LOAD /tmp/ccofWh0y.debug.temp.o
+LOAD /tmp/ccujpKVw.debug.temp.o
+LOAD /tmp/ccr8HEvB.debug.temp.o
+LOAD /tmp/cc0dFoSv.debug.temp.o
+LOAD /tmp/cct24BHY.debug.temp.o
+LOAD /tmp/ccsRuVN5.debug.temp.o
+LOAD /tmp/ccncdmWQ.debug.temp.o
+LOAD /tmp/ccMIyhC1.debug.temp.o
+LOAD /tmp/ccuTQSO6.debug.temp.o
+LOAD /tmp/ccJfairH.debug.temp.o
+LOAD /tmp/ccxGPELi.debug.temp.o
+LOAD /tmp/ccL8n7h9.debug.temp.o
+LOAD /tmp/ccspuG3G.debug.temp.o
+LOAD /tmp/cchY73CU.debug.temp.o
+LOAD /tmp/ccmhFhWq.debug.temp.o
+LOAD /tmp/ccCScWAY.debug.temp.o
+LOAD /tmp/ccpLlntk.debug.temp.o
+LOAD /tmp/ccXKOxST.debug.temp.o
+LOAD /tmp/cc3VmrI6.debug.temp.o
+LOAD /tmp/cckEunZs.debug.temp.o
+LOAD /tmp/cczVKbmG.debug.temp.o
+LOAD /tmp/ccKXbIRg.debug.temp.o
+LOAD /tmp/ccNzGk3A.debug.temp.o
+LOAD /tmp/ccCqaGl2.debug.temp.o
+LOAD /tmp/ccSzsRMo.debug.temp.o
+LOAD /tmp/cc2KGhQe.debug.temp.o
+LOAD /tmp/cchNkVJA.debug.temp.o
+LOAD /tmp/cc7daSFL.debug.temp.o
+LOAD /tmp/ccodtS8D.debug.temp.o
+LOAD /tmp/ccHHj529.debug.temp.o
+LOAD /tmp/ccVTc6pw.debug.temp.o
+LOAD /tmp/ccyEe7xN.debug.temp.o
+LOAD /tmp/cc6S2cxK.debug.temp.o
+LOAD /tmp/ccZuuKjf.debug.temp.o
+LOAD /tmp/ccMEE3IF.debug.temp.o
+LOAD /tmp/ccns9e8p.debug.temp.o
+LOAD /tmp/cc4jCeHT.debug.temp.o
+LOAD /tmp/cch1G0Zj.debug.temp.o
+LOAD /tmp/ccNecj5c.debug.temp.o
+LOAD /tmp/ccGJnw7b.debug.temp.o
+LOAD /tmp/cce2Wv3v.debug.temp.o
+LOAD /tmp/ccUmAG1H.debug.temp.o
+LOAD /tmp/ccaIwGGG.debug.temp.o
+LOAD /tmp/ccpfApIj.debug.temp.o
+LOAD /tmp/ccZlvCpN.debug.temp.o
+LOAD /tmp/cch03pIP.debug.temp.o
+LOAD /tmp/ccclJa9q.debug.temp.o
+LOAD /tmp/ccqBTeIT.debug.temp.o
+LOAD /tmp/ccwtnPLS.debug.temp.o
+LOAD /tmp/ccyAsgOx.debug.temp.o
+LOAD /tmp/cc2R6g1s.debug.temp.o
+LOAD /tmp/ccoN4Ed5.debug.temp.o
+LOAD /tmp/ccZLmeaC.debug.temp.o
+LOAD /tmp/ccKTeHqP.debug.temp.o
 LOAD ./build/obj/oop_base_object.o
 LOAD ./build/obj/hal.o
 LOAD ./build/obj/hal_safety.o
@@ -487,6 +516,7 @@ LOAD ./build/obj/oslib_test_sequence_008.o
 LOAD ./build/obj/oslib_test_sequence_009.o
 LOAD ./build/obj/main.o
 LOAD ./build/obj/mavlink_bridge.o
+LOAD ./build/obj/dummy_obstacle.o
 
 .mstack         0x0000000020000000      0x400
                 0x0000000020000000                . = ALIGN (0x8)
@@ -525,7 +555,7 @@ LOAD ./build/obj/mavlink_bridge.o
  *(SORT_BY_NAME(.fini_array.*))
                 0x00000000080001e0                __fini_array_end__ = .
 
-.text           0x00000000080001e0     0x37bc
+.text           0x00000000080001e0     0x4570
                 0x00000000080001e0                __text_base__ = .
  *(.text)
  .text          0x00000000080001e0       0xd8 ./build/obj/crt0_v7m.o
@@ -688,286 +718,302 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000008000858                __aeabi_fcmple
                 0x000000000800086c                __aeabi_fcmpge
                 0x0000000008000880                __aeabi_fcmpgt
- .text          0x0000000008000894       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
-                0x0000000008000894                memcmp
- .text          0x00000000080008fc      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
-                0x00000000080008fc                memcpy
- .text          0x0000000008000a30       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
-                0x0000000008000a30                memset
+ .text          0x0000000008000894       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008000894                __aeabi_uldivmod
+ .text          0x00000000080008c4      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00000000080008c4                __udivmoddi4
+ .text          0x0000000008000b94        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000008000b94                __aeabi_ldiv0
+                0x0000000008000b94                __aeabi_idiv0
+ .text          0x0000000008000b98       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+                0x0000000008000b98                memcmp
+ .text          0x0000000008000c00      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+                0x0000000008000c00                memcpy
+ .text          0x0000000008000d34       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+                0x0000000008000d34                memset
  *(.text.*)
- *fill*         0x0000000008000ad4        0xc 
- .text._ctl     0x0000000008000ae0        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000aec        0x4 
+ *fill*         0x0000000008000dd8        0x8 
+ .text._ctl     0x0000000008000de0        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008000dec        0x4 
  .text._pal_lld_setgroupmode
-                0x0000000008000af0       0xc0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .text.notify1  0x0000000008000bb0       0x10 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .text.notify2  0x0000000008000bc0       0x10 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008000df0       0xc0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .text.notify1  0x0000000008000eb0       0x10 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .text.notify2  0x0000000008000ec0       0x10 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.chSysHalt
-                0x0000000008000bd0       0x18 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000be8        0x8 
+                0x0000000008000ed0       0x18 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008000ee8        0x8 
  .text.__idle_thread
-                0x0000000008000bf0        0x4 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000bf4        0xc 
+                0x0000000008000ef0        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008000ef4        0xc 
  .text.chTMStartMeasurementX
-                0x0000000008000c00        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000c0c        0x4 
+                0x0000000008000f00        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008000f0c        0x4 
  .text.chTMStopMeasurementX
-                0x0000000008000c10       0x44 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000c54        0xc 
+                0x0000000008000f10       0x44 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008000f54        0xc 
  .text.chCoreAllocAlignedI
-                0x0000000008000c60       0x30 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008000f60       0x30 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.mavlink_sha256_calc
-                0x0000000008000c90      0x144 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000dd4        0xc 
+                0x0000000008000f90      0x144 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080010d4        0xc 
  .text.sdObjectInit.constprop.0
-                0x0000000008000de0       0x58 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000e38        0x8 
+                0x00000000080010e0       0x58 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001138        0x8 
  .text.__sch_ready_ahead
-                0x0000000008000e40       0x44 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000e84        0xc 
+                0x0000000008001140       0x44 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001184        0xc 
  .text.chCoreAllocFromTop
-                0x0000000008000e90       0x60 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001190       0x60 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.vt_insert_first.constprop.0
-                0x0000000008000ef0       0x84 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008000f74        0xc 
+                0x00000000080011f0       0x84 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001274        0xc 
  .text.vt_set_alarm.constprop.0
-                0x0000000008000f80       0x60 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001280       0x60 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.__sch_ready_behind.isra.0
-                0x0000000008000fe0       0x44 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001024        0xc 
+                0x00000000080012e0       0x44 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001324        0xc 
  .text.__sch_wakeup
-                0x0000000008001030       0x4c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800107c        0x4 
+                0x0000000008001330       0x4c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800137c        0x4 
  .text.chEvtBroadcastFlagsI
-                0x0000000008001080       0x58 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080010d8        0x8 
+                0x0000000008001380       0x58 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080013d8        0x8 
  .text.chThdDequeueNextI.constprop.0
-                0x00000000080010e0       0x30 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080013e0       0x30 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.sd_lld_serve_interrupt
-                0x0000000008001110      0x180 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001410      0x180 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.chSchGoSleepS
-                0x0000000008001290       0x60 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001590       0x60 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.chSchGoSleepTimeoutS
-                0x00000000080012f0      0x104 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080013f4        0xc 
+                0x00000000080015f0      0x104 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080016f4        0xc 
  .text.oqWriteTimeout
-                0x0000000008001400      0x11c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800151c        0x4 
- .text._write   0x0000000008001520        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800152c        0x4 
- .text._writet  0x0000000008001530        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001538        0x8 
- .text.mav_send
-                0x0000000008001540      0x11c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800165c        0x4 
- .text.iqGetTimeout
-                0x0000000008001660       0x98 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080016f8        0x8 
- .text._get     0x0000000008001700        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800170c        0x4 
- .text._gett    0x0000000008001710        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001718        0x8 
- .text.iqReadTimeout
-                0x0000000008001720      0x118 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001700      0x11c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800181c        0x4 
+ .text._write   0x0000000008001820        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800182c        0x4 
+ .text._writet  0x0000000008001830        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  *fill*         0x0000000008001838        0x8 
- .text._read    0x0000000008001840        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800184c        0x4 
- .text._readt   0x0000000008001850        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001858        0x8 
- .text.oqPutTimeout
-                0x0000000008001860       0x98 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+ .text.iqGetTimeout
+                0x0000000008001840       0x98 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080018d8        0x8 
+ .text._get     0x00000000080018e0        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080018ec        0x4 
+ .text._gett    0x00000000080018f0        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  *fill*         0x00000000080018f8        0x8 
- .text._put     0x0000000008001900        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800190c        0x4 
- .text._putt    0x0000000008001910        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001918        0x8 
+ .text.iqReadTimeout
+                0x0000000008001900      0x118 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001a18        0x8 
+ .text._read    0x0000000008001a20        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001a2c        0x4 
+ .text._readt   0x0000000008001a30        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001a38        0x8 
+ .text.oqPutTimeout
+                0x0000000008001a40       0x98 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001ad8        0x8 
+ .text._put     0x0000000008001ae0        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001aec        0x4 
+ .text._putt    0x0000000008001af0        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001af8        0x8 
  .text.LedThread
-                0x0000000008001920      0x100 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001b00      0x150 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.chThdCreateStatic.constprop.0.isra.0
-                0x0000000008001a20      0x22c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008001c4c        0x4 
+                0x0000000008001c50      0x22c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001e7c        0x4 
+ .text.mavlink_sha256_final_48.lto_priv.0
+                0x0000000008001e80      0x118 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008001f98        0x8 
  .text.mavlink_finalize_message_buffer.constprop.0.isra.0
-                0x0000000008001c50      0x560 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008001fa0      0x44c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080023ec        0x4 
  .text.send_own_heartbeat
-                0x00000000080021b0       0x48 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080021f8        0x8 
+                0x00000000080023f0      0x14c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800253c        0x4 
  .text.request_position_stream
-                0x0000000008002200       0x84 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008002284        0xc 
+                0x0000000008002540      0x180 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .text.set_guided_mode
-                0x0000000008002290       0x50 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080026c0      0x158 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008002818        0x8 
  .text.send_redirect_land
-                0x00000000080022e0       0x8c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x000000000800236c        0x4 
+                0x0000000008002820      0x18c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080029ac        0x4 
  .text.mavlink_signature_check
-                0x0000000008002370      0x484 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080027f4        0xc 
+                0x00000000080029b0      0x484 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008002e34        0xc 
  .text.MavRxThread
-                0x0000000008002800      0x6d8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008002ed8        0x8 
+                0x0000000008002e40      0x6d8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008003518        0x8 
+ .text.send_distance_sensor
+                0x0000000008003520      0x640 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .text.ObstacleThread
+                0x0000000008003b60       0xac /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008003c0c        0x4 
  .text.__cpu_init
-                0x0000000008002ee0        0x4 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002ee0                __cpu_init
- *fill*         0x0000000008002ee4        0xc 
+                0x0000000008003c10        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003c10                __cpu_init
+ *fill*         0x0000000008003c14        0xc 
  .text.__late_init
-                0x0000000008002ef0        0x4 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002ef0                __late_init
- *fill*         0x0000000008002ef4        0xc 
+                0x0000000008003c20        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003c20                __late_init
+ *fill*         0x0000000008003c24        0xc 
  .text.__default_exit
-                0x0000000008002f00        0x4 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002f00                __default_exit
- *fill*         0x0000000008002f04        0xc 
+                0x0000000008003c30        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003c30                __default_exit
+ *fill*         0x0000000008003c34        0xc 
  .text.__init_ram_areas
-                0x0000000008002f10       0x6c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002f10                __init_ram_areas
- *fill*         0x0000000008002f7c        0x4 
+                0x0000000008003c40       0x6c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003c40                __init_ram_areas
+ *fill*         0x0000000008003cac        0x4 
  .text.VectorD4
-                0x0000000008002f80       0x58 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002f80                VectorD4
- *fill*         0x0000000008002fd8        0x8 
+                0x0000000008003cb0       0x58 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003cb0                VectorD4
+ *fill*         0x0000000008003d08        0x8 
  .text.VectorD8
-                0x0000000008002fe0       0x58 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008002fe0                VectorD8
- *fill*         0x0000000008003038        0x8 
+                0x0000000008003d10       0x58 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003d10                VectorD8
+ *fill*         0x0000000008003d68        0x8 
  .text.VectorB0
-                0x0000000008003040      0x140 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008003040                VectorB0
+                0x0000000008003d70      0x140 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003d70                VectorB0
  .text.__early_init
-                0x0000000008003180      0x1e8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008003180                __early_init
- *fill*         0x0000000008003368        0x8 
+                0x0000000008003eb0      0x1e8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008003eb0                __early_init
+ *fill*         0x0000000008004098        0x8 
  .text.chSchDoPreemption
-                0x0000000008003370       0x40 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008003370                chSchDoPreemption
+                0x00000000080040a0       0x40 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x00000000080040a0                chSchDoPreemption
  .text.chThdExit
-                0x00000000080033b0       0x54 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x00000000080033b0                chThdExit
- *fill*         0x0000000008003404        0xc 
+                0x00000000080040e0       0x54 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x00000000080040e0                chThdExit
+ *fill*         0x0000000008004134        0xc 
  .text.SVC_Handler
-                0x0000000008003410       0x14 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008003410                SVC_Handler
- *fill*         0x0000000008003424        0xc 
+                0x0000000008004140       0x14 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008004140                SVC_Handler
+ *fill*         0x0000000008004154        0xc 
  .text.startup.main
-                0x0000000008003430      0x56c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008003430                main
+                0x0000000008004160      0x5f0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x0000000008004160                main
  *(.glue_7t)
- .glue_7t       0x000000000800399c        0x0 linker stubs
+ .glue_7t       0x0000000008004750        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x000000000800399c        0x0 linker stubs
+ .glue_7        0x0000000008004750        0x0 linker stubs
  *(.gcc*)
-                0x000000000800399c                __text_end__ = .
+                0x0000000008004750                __text_end__ = .
 
-.vfp11_veneer   0x000000000800399c        0x0
- .vfp11_veneer  0x000000000800399c        0x0 linker stubs
+.vfp11_veneer   0x0000000008004750        0x0
+ .vfp11_veneer  0x0000000008004750        0x0 linker stubs
 
-.v4_bx          0x000000000800399c        0x0
- .v4_bx         0x000000000800399c        0x0 linker stubs
+.v4_bx          0x0000000008004750        0x0
+ .v4_bx         0x0000000008004750        0x0 linker stubs
 
-.iplt           0x000000000800399c        0x0
- .iplt          0x000000000800399c        0x0 ./build/obj/crt0_v7m.o
+.iplt           0x0000000008004750        0x0
+ .iplt          0x0000000008004750        0x0 ./build/obj/crt0_v7m.o
 
-.rodata         0x000000000800399c      0xe6c
-                0x000000000800399c                __rodata_base__ = .
+.rodata         0x0000000008004750      0xe7c
+                0x0000000008004750                __rodata_base__ = .
  *(.rodata)
  *(.rodata.*)
  .rodata.chSchGoSleepS.str1.4
-                0x000000000800399c        0xf /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080039ab        0x1 
+                0x0000000008004750        0xf /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800475f        0x1 
  .rodata.chThdCreateStatic.constprop.0.isra.0.str1.4
-                0x00000000080039ac        0x7 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080039b3        0x1 
+                0x0000000008004760        0x7 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004767        0x1 
  .rodata.main.str1.4
-                0x00000000080039b4        0xd /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080039c1        0x3 
+                0x0000000008004768        0xd /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004775        0x3 
  .rodata.str1.4
-                0x00000000080039c4        0x3 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080039c7        0x1 
+                0x0000000008004778        0x3 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800477b        0x1 
  .rodata.__func__.0.lto_priv.0
-                0x00000000080039c8        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x000000000800477c        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.0.lto_priv.1
-                0x00000000080039d4        0xb /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x00000000080039df        0x1 
+                0x0000000008004788        0xb /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004793        0x1 
  .rodata.__func__.0.lto_priv.2
-                0x00000000080039e0       0x14 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004794       0x14 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.0.lto_priv.3
-                0x00000000080039f4       0x17 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003a0b        0x1 
+                0x00000000080047a8       0x17 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080047bf        0x1 
  .rodata.__func__.0.lto_priv.4
-                0x0000000008003a0c       0x15 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003a21        0x3 
+                0x00000000080047c0       0x15 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080047d5        0x3 
  .rodata.__func__.0.lto_priv.6
-                0x0000000008003a24       0x10 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080047d8       0x10 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.0.lto_priv.7
-                0x0000000008003a34        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080047e8        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.1.lto_priv.0
-                0x0000000008003a40        0xb /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003a4b        0x1 
+                0x00000000080047f4        0xb /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080047ff        0x1 
  .rodata.__func__.1.lto_priv.1
-                0x0000000008003a4c        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004800        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.1.lto_priv.2
-                0x0000000008003a58        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x000000000800480c        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.1.lto_priv.3
-                0x0000000008003a64        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004818        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.1.lto_priv.4
-                0x0000000008003a70       0x12 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003a82        0x2 
+                0x0000000008004824       0x12 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004836        0x2 
  .rodata.__func__.1.lto_priv.5
-                0x0000000008003a84       0x14 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004838       0x14 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.1.lto_priv.6
-                0x0000000008003a98        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x000000000800484c        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.10
-                0x0000000008003aa4        0xd /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003ab1        0x3 
+                0x0000000008004858        0xd /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004865        0x3 
  .rodata.__func__.13
-                0x0000000008003ab4       0x12 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003ac6        0x2 
+                0x0000000008004868       0x12 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000000800487a        0x2 
  .rodata.__func__.17
-                0x0000000008003ac8        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x000000000800487c        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.2.lto_priv.0
-                0x0000000008003ad4        0xd /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003ae1        0x3 
+                0x0000000008004888        0xd /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004895        0x3 
  .rodata.__func__.2.lto_priv.1
-                0x0000000008003ae4        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004898        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.2.lto_priv.2
-                0x0000000008003aec        0xd /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003af9        0x3 
+                0x00000000080048a0        0xd /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080048ad        0x3 
  .rodata.__func__.3.lto_priv.1
-                0x0000000008003afc        0xe /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003b0a        0x2 
+                0x00000000080048b0        0xe /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080048be        0x2 
  .rodata.__func__.4
-                0x0000000008003b0c       0x10 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080048c0       0x10 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.5
-                0x0000000008003b1c       0x18 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x00000000080048d0       0x18 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.__func__.6
-                0x0000000008003b34       0x13 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003b47        0x1 
+                0x00000000080048e8       0x13 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x00000000080048fb        0x1 
  .rodata.__func__.9
-                0x0000000008003b48        0xb /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000008003b53        0x1 
+                0x00000000080048fc        0xb /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000008004907        0x1 
  .rodata.ch_core0_cfg
-                0x0000000008003b54       0x14 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008004908       0x14 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.mavlink_message_crcs.1
-                0x0000000008003b68      0xaf8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x000000000800491c      0xaf8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.mavlink_sha256_constant_256
-                0x0000000008004660      0x100 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000008005414      0x100 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .rodata.ram_areas
-                0x0000000008004760       0x80 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .rodata.vmt    0x00000000080047e0       0x28 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                0x0000000008004808                . = ALIGN (0x4)
-                0x0000000008004808                __rodata_end__ = .
-
-.rel.dyn        0x0000000008004808        0x0
- .rel.iplt      0x0000000008004808        0x0 ./build/obj/crt0_v7m.o
+                0x0000000008005514       0x80 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .rodata.vmt    0x0000000008005594       0x28 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .rodata.zero_quaternion
+                0x00000000080055bc       0x10 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                0x00000000080055cc                . = ALIGN (0x4)
+                0x00000000080055cc                __rodata_end__ = .
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0000000008004808        0x0
-                0x0000000008004808                __exidx_base__ = .
-                0x0000000008004808                __exidx_start = .
+.ARM.exidx      0x00000000080055cc        0x8
+                0x00000000080055cc                __exidx_base__ = .
+                0x00000000080055cc                __exidx_start = .
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008004808                __exidx_end__ = .
-                0x0000000008004808                __exidx_end = .
+ .ARM.exidx     0x00000000080055cc        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00000000080055d4                __exidx_end__ = .
+                0x00000000080055d4                __exidx_end = .
+
+.rel.dyn        0x00000000080055d4        0x0
+ .rel.iplt      0x00000000080055d4        0x0 ./build/obj/crt0_v7m.o
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -975,10 +1021,10 @@ LOAD ./build/obj/mavlink_bridge.o
 .eh_frame
  *(.eh_frame)
 
-.data           0x0000000020000800        0x0 load address 0x0000000008004808
+.data           0x0000000020000800        0x0 load address 0x00000000080055d4
                 [!provide]                        PROVIDE (_textdata = LOADADDR (.data))
                 [!provide]                        PROVIDE (_data = .)
-                0x0000000008004808                __textdata_base__ = LOADADDR (.data)
+                0x00000000080055d4                __textdata_base__ = LOADADDR (.data)
                 0x0000000020000800                __data_base__ = .
  *(.data)
  *(.data.*)
@@ -987,44 +1033,50 @@ LOAD ./build/obj/mavlink_bridge.o
                 [!provide]                        PROVIDE (_edata = .)
                 0x0000000020000800                __data_end__ = .
 
-.igot.plt       0x0000000020000800        0x0 load address 0x0000000008004808
+.igot.plt       0x0000000020000800        0x0 load address 0x00000000080055d4
  .igot.plt      0x0000000020000800        0x0 ./build/obj/crt0_v7m.o
 
-.bss            0x0000000020000800      0xe80 load address 0x0000000008004808
+.bss            0x0000000020000800     0x1500 load address 0x00000000080055d4
                 0x0000000020000800                __bss_base__ = .
  *(.bss)
  *(.bss.*)
- .bss.SD1       0x0000000020000800       0x80 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.SD2       0x0000000020000880       0x80 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.buf.4     0x0000000020000900      0x118 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.ch0       0x0000000020000a18       0xf0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000020000b08       0x18 
+ .bss.SD1       0x0000000020000800       0x80 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.SD2       0x0000000020000880       0x80 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.buf.1     0x0000000020000900      0x118 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.buf.4     0x0000000020000a18      0x118 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.ch0       0x0000000020000b30       0xf0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.ch_c0_idle_thread_wa
-                0x0000000020000b20      0x100 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000c20      0x100 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.ch_factory
-                0x0000000020000c20       0x48 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000d20       0x48 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.ch_memcore
-                0x0000000020000c68        0x8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000d68        0x8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.ch_system
-                0x0000000020000c70        0xc /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000d70        0xc /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.default_heap
-                0x0000000020000c7c       0x24 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.fc        0x0000000020000ca0       0x14 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.fc_sd     0x0000000020000cb4        0x4 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000d7c       0x24 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.fc        0x0000000020000da0       0x14 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.fc_sd     0x0000000020000db4        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.m_mavlink_buffer.0
-                0x0000000020000cb8      0x123 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000020000ddb        0x1 
+                0x0000000020000db8      0x123 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000020000edb        0x1 
+ .bss.m_mavlink_status.0
+                0x0000000020000edc       0x18 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .bss.m_mavlink_status.5
-                0x0000000020000ddc       0x18 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.msg.3     0x0000000020000df4      0x123 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000020000f17        0x1 
- .bss.status.2  0x0000000020000f18       0x18 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- *fill*         0x0000000020000f30       0x10 
- .bss.waLed     0x0000000020000f40      0x220 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .bss.waMavRx   0x0000000020001160      0x520 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000020000ef4       0x18 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.msg.3     0x0000000020000f0c      0x123 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x000000002000102f        0x1 
+ .bss.obs_sd    0x0000000020001030        0x4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.sim       0x0000000020001034       0x3c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.status.2  0x0000000020001070       0x18 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ *fill*         0x0000000020001088       0x18 
+ .bss.waLed     0x00000000200010a0      0x220 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.waMavRx   0x00000000200012c0      0x520 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .bss.waObstacle
+                0x00000000200017e0      0x520 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  *(COMMON)
-                0x0000000020001680                . = ALIGN (0x4)
-                0x0000000020001680                __bss_end__ = .
+                0x0000000020001d00                . = ALIGN (0x4)
+                0x0000000020001d00                __bss_end__ = .
                 [!provide]                        PROVIDE (end = .)
                 0x0000000020000000                __ram0_base__ = ORIGIN (ram0)
                 0x0000000000018000                __ram0_size__ = LENGTH (ram0)
@@ -1075,32 +1127,32 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                __flash7_size__ = LENGTH (flash7)
                 0x0000000000000000                __flash7_end__ = (__flash7_base__ + __flash7_size__)
 
-.ram0_init      0x0000000020001680        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram0_init_text__ = LOADADDR (.ram0_init)
-                0x0000000020001680                __ram0_init__ = .
+.ram0_init      0x0000000020001d00        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram0_init_text__ = LOADADDR (.ram0_init)
+                0x0000000020001d00                __ram0_init__ = .
  *(.ram0_init)
  *(.ram0_init.*)
-                0x0000000020001680                . = ALIGN (0x4)
+                0x0000000020001d00                . = ALIGN (0x4)
 
-.ram0           0x0000000020001680        0x0 load address 0x0000000008004808
-                0x0000000020001680                __ram0_clear__ = .
+.ram0           0x0000000020001d00        0x0 load address 0x00000000080055d4
+                0x0000000020001d00                __ram0_clear__ = .
  *(.ram0_clear)
  *(.ram0_clear.*)
-                0x0000000020001680                . = ALIGN (0x4)
-                0x0000000020001680                __ram0_noinit__ = .
+                0x0000000020001d00                . = ALIGN (0x4)
+                0x0000000020001d00                __ram0_noinit__ = .
  *(.ram0)
  *(.ram0.*)
-                0x0000000020001680                . = ALIGN (0x4)
-                0x0000000020001680                __ram0_free__ = .
+                0x0000000020001d00                . = ALIGN (0x4)
+                0x0000000020001d00                __ram0_free__ = .
 
-.ram1_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram1_init_text__ = LOADADDR (.ram1_init)
+.ram1_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram1_init_text__ = LOADADDR (.ram1_init)
                 0x0000000000000000                __ram1_init__ = .
  *(.ram1_init)
  *(.ram1_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram1           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram1           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram1_clear__ = .
  *(.ram1_clear)
  *(.ram1_clear.*)
@@ -1111,14 +1163,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram1_free__ = .
 
-.ram2_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram2_init_text__ = LOADADDR (.ram2_init)
+.ram2_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram2_init_text__ = LOADADDR (.ram2_init)
                 0x0000000000000000                __ram2_init__ = .
  *(.ram2_init)
  *(.ram2_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram2           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram2           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram2_clear__ = .
  *(.ram2_clear)
  *(.ram2_clear.*)
@@ -1129,14 +1181,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram2_free__ = .
 
-.ram3_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram3_init_text__ = LOADADDR (.ram3_init)
+.ram3_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram3_init_text__ = LOADADDR (.ram3_init)
                 0x0000000000000000                __ram3_init__ = .
  *(.ram3_init)
  *(.ram3_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram3           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram3           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram3_clear__ = .
  *(.ram3_clear)
  *(.ram3_clear.*)
@@ -1147,14 +1199,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram3_free__ = .
 
-.ram4_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram4_init_text__ = LOADADDR (.ram4_init)
+.ram4_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram4_init_text__ = LOADADDR (.ram4_init)
                 0x0000000000000000                __ram4_init__ = .
  *(.ram4_init)
  *(.ram4_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram4           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram4           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram4_clear__ = .
  *(.ram4_clear)
  *(.ram4_clear.*)
@@ -1165,14 +1217,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram4_free__ = .
 
-.ram5_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram5_init_text__ = LOADADDR (.ram5_init)
+.ram5_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram5_init_text__ = LOADADDR (.ram5_init)
                 0x0000000000000000                __ram5_init__ = .
  *(.ram5_init)
  *(.ram5_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram5           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram5           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram5_clear__ = .
  *(.ram5_clear)
  *(.ram5_clear.*)
@@ -1183,14 +1235,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram5_free__ = .
 
-.ram6_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram6_init_text__ = LOADADDR (.ram6_init)
+.ram6_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram6_init_text__ = LOADADDR (.ram6_init)
                 0x0000000000000000                __ram6_init__ = .
  *(.ram6_init)
  *(.ram6_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram6           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram6           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram6_clear__ = .
  *(.ram6_clear)
  *(.ram6_clear.*)
@@ -1201,14 +1253,14 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram6_free__ = .
 
-.ram7_init      0x0000000000000000        0x0 load address 0x0000000008004808
-                0x0000000008004808                __ram7_init_text__ = LOADADDR (.ram7_init)
+.ram7_init      0x0000000000000000        0x0 load address 0x00000000080055d4
+                0x00000000080055d4                __ram7_init_text__ = LOADADDR (.ram7_init)
                 0x0000000000000000                __ram7_init__ = .
  *(.ram7_init)
  *(.ram7_init.*)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.ram7           0x0000000000000000        0x0 load address 0x0000000008004808
+.ram7           0x0000000000000000        0x0 load address 0x00000000080055d4
                 0x0000000000000000                __ram7_clear__ = .
  *(.ram7_clear)
  *(.ram7_clear.*)
@@ -1219,11 +1271,11 @@ LOAD ./build/obj/mavlink_bridge.o
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __ram7_free__ = .
 
-.flash0         0x0000000008004808        0x0
-                0x0000000008004808                __flash0_init__ = .
+.flash0         0x00000000080055d4        0x0
+                0x00000000080055d4                __flash0_init__ = .
  *(.flash0_init)
  *(.flash0_init.*)
-                0x0000000008004808                __flash0_free__ = .
+                0x00000000080055d4                __flash0_free__ = .
 
 .flash1         0x0000000000000000        0x0
                 0x0000000000000000                __flash1_init__ = .
@@ -1267,11 +1319,11 @@ LOAD ./build/obj/mavlink_bridge.o
  *(.flash7_init.*)
                 0x0000000000000000                __flash7_free__ = .
 
-.heap           0x0000000020001680    0x16980
-                0x0000000020001680                . = ALIGN (0x8)
-                0x0000000020001680                __heap_base__ = .
+.heap           0x0000000020001d00    0x16300
+                0x0000000020001d00                . = ALIGN (0x8)
+                0x0000000020001d00                __heap_base__ = .
                 0x0000000020018000                . = (ORIGIN (HEAP_RAM) + LENGTH (HEAP_RAM))
- *fill*         0x0000000020001680    0x16980 
+ *fill*         0x0000000020001d00    0x16300 
                 0x0000000020018000                __heap_end__ = .
                 0x0000000000000400                __process_stack_size__ = 0x400
                 0x0000000000000400                __main_stack_size__ = 0x400
@@ -1292,7 +1344,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000042       0x21 ./build/obj/chcoreasm.o
  .ARM.attributes
-                0x0000000000000063       0x2c /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000000000063       0x2c /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .ARM.attributes
                 0x000000000000008f       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
@@ -1300,171 +1352,191 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000000cb       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x00000000000000e9       0x2e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+                0x00000000000000e9       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000000000000117       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+                0x0000000000000107       0x2e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000000000000133       0x2e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+                0x0000000000000135       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000153       0x2e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x0000000000000181       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000000000000019d       0x2e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
 .comment        0x0000000000000000       0x33
- .comment       0x0000000000000000       0x33 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                          0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_line     0x0000000000000000     0xa09c
+.debug_line     0x0000000000000000     0xb9ac
  .debug_line    0x0000000000000000       0xc7 ./build/obj/crt0_v7m.o
  .debug_line    0x00000000000000c7       0x6f ./build/obj/vectors.o
  .debug_line    0x0000000000000136       0x81 ./build/obj/chcoreasm.o
- .debug_line    0x00000000000001b7     0x63a8 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .debug_line    0x000000000000655f       0x8e /tmp/ccCaYEv1.debug.temp.o
- .debug_line    0x00000000000065ed       0x61 /tmp/ccUPSVhR.debug.temp.o
- .debug_line    0x000000000000664e      0x106 /tmp/ccCVxvrF.debug.temp.o
- .debug_line    0x0000000000006754      0x1fb /tmp/cc3Yj42w.debug.temp.o
- .debug_line    0x000000000000694f      0x28a /tmp/ccacVsiV.debug.temp.o
- .debug_line    0x0000000000006bd9       0xbe /tmp/ccro7BGE.debug.temp.o
- .debug_line    0x0000000000006c97      0x51b /tmp/cc3MRTxI.debug.temp.o
- .debug_line    0x00000000000071b2      0x10e /tmp/ccOu2V63.debug.temp.o
- .debug_line    0x00000000000072c0       0xad /tmp/cczQH9J3.debug.temp.o
- .debug_line    0x000000000000736d      0x1aa /tmp/cckgguAU.debug.temp.o
- .debug_line    0x0000000000007517      0x27a /tmp/ccgS0EDL.debug.temp.o
- .debug_line    0x0000000000007791       0xd1 /tmp/ccW8u5u9.debug.temp.o
- .debug_line    0x0000000000007862      0x1e4 /tmp/ccdEB0GO.debug.temp.o
- .debug_line    0x0000000000007a46      0x15f /tmp/cc790jPU.debug.temp.o
- .debug_line    0x0000000000007ba5      0x1d2 /tmp/cciAKKop.debug.temp.o
- .debug_line    0x0000000000007d77      0x1b4 /tmp/ccnmEGiL.debug.temp.o
- .debug_line    0x0000000000007f2b      0x1c5 /tmp/cc1n3XS9.debug.temp.o
- .debug_line    0x00000000000080f0      0x1f2 /tmp/ccB58b4b.debug.temp.o
- .debug_line    0x00000000000082e2      0x1a3 /tmp/cczW0T6j.debug.temp.o
- .debug_line    0x0000000000008485      0x1d5 /tmp/ccEZGaYz.debug.temp.o
- .debug_line    0x000000000000865a      0x1c4 /tmp/ccjdDL7m.debug.temp.o
- .debug_line    0x000000000000881e      0x1bb /tmp/ccuIzlOh.debug.temp.o
- .debug_line    0x00000000000089d9      0x1e8 /tmp/ccnoSnD0.debug.temp.o
- .debug_line    0x0000000000008bc1      0x1b1 /tmp/ccMuHnXT.debug.temp.o
- .debug_line    0x0000000000008d72      0x1e8 /tmp/ccA6e33W.debug.temp.o
- .debug_line    0x0000000000008f5a      0x1d9 /tmp/ccoI9ag0.debug.temp.o
- .debug_line    0x0000000000009133      0x1c1 /tmp/ccwvZ4sM.debug.temp.o
- .debug_line    0x00000000000092f4      0x2c5 /tmp/ccLssBSf.debug.temp.o
- .debug_line    0x00000000000095b9      0x3e7 /tmp/ccTatrTm.debug.temp.o
- .debug_line    0x00000000000099a0      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_line    0x0000000000009aba      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_line    0x0000000000009bf4       0xb1 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_line    0x0000000000009ca5      0x17a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
- .debug_line    0x0000000000009e1f       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
- .debug_line    0x0000000000009edd      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+ .debug_line    0x00000000000001b7     0x7306 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_line    0x00000000000074bd       0x8e /tmp/cc2cgvP9.debug.temp.o
+ .debug_line    0x000000000000754b       0x61 /tmp/ccEMG2Gi.debug.temp.o
+ .debug_line    0x00000000000075ac      0x106 /tmp/ccbGyx2Z.debug.temp.o
+ .debug_line    0x00000000000076b2      0x1fb /tmp/ccmCEJS7.debug.temp.o
+ .debug_line    0x00000000000078ad      0x28a /tmp/cc2F0L60.debug.temp.o
+ .debug_line    0x0000000000007b37       0xbe /tmp/ccvoZiRH.debug.temp.o
+ .debug_line    0x0000000000007bf5      0x51b /tmp/ccNHyMMk.debug.temp.o
+ .debug_line    0x0000000000008110      0x10e /tmp/cc5sZpfG.debug.temp.o
+ .debug_line    0x000000000000821e       0xad /tmp/cc4t352Z.debug.temp.o
+ .debug_line    0x00000000000082cb      0x1aa /tmp/cc8cZpg5.debug.temp.o
+ .debug_line    0x0000000000008475      0x27a /tmp/ccmf180Y.debug.temp.o
+ .debug_line    0x00000000000086ef       0xd1 /tmp/cc1LdJw9.debug.temp.o
+ .debug_line    0x00000000000087c0      0x1e4 /tmp/ccC71L2Y.debug.temp.o
+ .debug_line    0x00000000000089a4      0x15f /tmp/ccujpKVw.debug.temp.o
+ .debug_line    0x0000000000008b03      0x1d2 /tmp/cct24BHY.debug.temp.o
+ .debug_line    0x0000000000008cd5      0x1b4 /tmp/ccsRuVN5.debug.temp.o
+ .debug_line    0x0000000000008e89      0x1c5 /tmp/ccncdmWQ.debug.temp.o
+ .debug_line    0x000000000000904e      0x1f2 /tmp/ccMIyhC1.debug.temp.o
+ .debug_line    0x0000000000009240      0x1a3 /tmp/ccuTQSO6.debug.temp.o
+ .debug_line    0x00000000000093e3      0x1d5 /tmp/ccJfairH.debug.temp.o
+ .debug_line    0x00000000000095b8      0x1c4 /tmp/ccL8n7h9.debug.temp.o
+ .debug_line    0x000000000000977c      0x1bb /tmp/cchY73CU.debug.temp.o
+ .debug_line    0x0000000000009937      0x1e8 /tmp/cc3VmrI6.debug.temp.o
+ .debug_line    0x0000000000009b1f      0x1b1 /tmp/cckEunZs.debug.temp.o
+ .debug_line    0x0000000000009cd0      0x1e8 /tmp/cczVKbmG.debug.temp.o
+ .debug_line    0x0000000000009eb8      0x1d9 /tmp/ccSzsRMo.debug.temp.o
+ .debug_line    0x000000000000a091      0x1c1 /tmp/cc2KGhQe.debug.temp.o
+ .debug_line    0x000000000000a252      0x2d9 /tmp/ccoN4Ed5.debug.temp.o
+ .debug_line    0x000000000000a52b      0x3e7 /tmp/ccZLmeaC.debug.temp.o
+ .debug_line    0x000000000000a912      0x32a /tmp/ccKTeHqP.debug.temp.o
+ .debug_line    0x000000000000ac3c      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x000000000000ad56      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x000000000000ae90       0xb1 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x000000000000af41       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000000000000afa1      0x5b4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x000000000000b555       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000b5b5      0x17a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000b72f       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000b7ed      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_info     0x0000000000000000    0x1dc88
+.debug_info     0x0000000000000000    0x21657
  .debug_info    0x0000000000000000       0x26 ./build/obj/crt0_v7m.o
  .debug_info    0x0000000000000026       0x26 ./build/obj/vectors.o
  .debug_info    0x000000000000004c       0x26 ./build/obj/chcoreasm.o
- .debug_info    0x0000000000000072     0x7c55 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .debug_info    0x0000000000007cc7      0x2bc /tmp/ccCaYEv1.debug.temp.o
-                0x0000000000007cc7                crt1.c.6185c1d2
- .debug_info    0x0000000000007f83       0x8a /tmp/ccUPSVhR.debug.temp.o
-                0x0000000000007f83                hal.c.0be293e7
- .debug_info    0x000000000000800d      0x309 /tmp/ccCVxvrF.debug.temp.o
-                0x000000000000800d                hal_st.c.dff6e77b
- .debug_info    0x0000000000008316      0xe26 /tmp/cc3Yj42w.debug.temp.o
-                0x0000000000008316                hal_queues.c.5127b49a
- .debug_info    0x000000000000913c     0x10f9 /tmp/ccacVsiV.debug.temp.o
-                0x000000000000913c                hal_serial.c.20133dc2
- .debug_info    0x000000000000a235      0x4a4 /tmp/ccro7BGE.debug.temp.o
-                0x000000000000a235                nvic.c.c36ca289
- .debug_info    0x000000000000a6d9      0xe3d /tmp/cc3MRTxI.debug.temp.o
-                0x000000000000a6d9                stm32_isr.c.080a805b
- .debug_info    0x000000000000b516      0x57c /tmp/ccOu2V63.debug.temp.o
-                0x000000000000b516                hal_lld.c.1451af07
- .debug_info    0x000000000000ba92      0x24f /tmp/cczQH9J3.debug.temp.o
-                0x000000000000ba92                hal_pal_lld.c.2c661425
- .debug_info    0x000000000000bce1      0x4e8 /tmp/cckgguAU.debug.temp.o
-                0x000000000000bce1                hal_st_lld.c.502cf11a
- .debug_info    0x000000000000c1c9     0x109f /tmp/ccgS0EDL.debug.temp.o
-                0x000000000000c1c9                hal_serial_lld.c.7a09f2d1
- .debug_info    0x000000000000d268      0x4a1 /tmp/ccW8u5u9.debug.temp.o
-                0x000000000000d268                board.c.eca6cc24
- .debug_info    0x000000000000d709      0xd48 /tmp/ccdEB0GO.debug.temp.o
-                0x000000000000d709                chsys.c.0015622d
- .debug_info    0x000000000000e451      0x7b4 /tmp/cc790jPU.debug.temp.o
-                0x000000000000e451                chrfcu.c.27ff6f59
- .debug_info    0x000000000000ec05      0xe78 /tmp/cciAKKop.debug.temp.o
-                0x000000000000ec05                chvt.c.6375baad
- .debug_info    0x000000000000fa7d      0xdb4 /tmp/ccnmEGiL.debug.temp.o
-                0x000000000000fa7d                chschd.c.d1b9da93
- .debug_info    0x0000000000010831      0xa6d /tmp/cc1n3XS9.debug.temp.o
-                0x0000000000010831                chinstances.c.1da08018
- .debug_info    0x000000000001129e     0x1269 /tmp/ccB58b4b.debug.temp.o
-                0x000000000001129e                chthreads.c.4c2f8f37
- .debug_info    0x0000000000012507      0xb19 /tmp/cczW0T6j.debug.temp.o
-                0x0000000000012507                chtm.c.45616f7e
- .debug_info    0x0000000000013020      0xbe7 /tmp/ccEZGaYz.debug.temp.o
-                0x0000000000013020                chregistry.c.18181ceb
- .debug_info    0x0000000000013c07      0xb99 /tmp/ccjdDL7m.debug.temp.o
-                0x0000000000013c07                chmtx.c.64ea8935
- .debug_info    0x00000000000147a0      0xdd2 /tmp/ccuIzlOh.debug.temp.o
-                0x00000000000147a0                chevents.c.8136ee4b
- .debug_info    0x0000000000015572      0xa2b /tmp/ccnoSnD0.debug.temp.o
-                0x0000000000015572                chmemcore.c.7157f22a
- .debug_info    0x0000000000015f9d      0xbc9 /tmp/ccMuHnXT.debug.temp.o
-                0x0000000000015f9d                chmemheaps.c.74ed9d22
- .debug_info    0x0000000000016b66      0xc19 /tmp/ccA6e33W.debug.temp.o
-                0x0000000000016b66                chmempools.c.1cc9d8e0
- .debug_info    0x000000000001777f     0x1500 /tmp/ccoI9ag0.debug.temp.o
-                0x000000000001777f                chfactory.c.80c1027b
- .debug_info    0x0000000000018c7f      0xf64 /tmp/ccwvZ4sM.debug.temp.o
-                0x0000000000018c7f                chcore.c.6e81bebc
- .debug_info    0x0000000000019be3      0xfcb /tmp/ccLssBSf.debug.temp.o
-                0x0000000000019be3                main.c.c301165d
- .debug_info    0x000000000001abae     0x2dd3 /tmp/ccTatrTm.debug.temp.o
-                0x000000000001abae                mavlink_bridge.c.e73ced39
- .debug_info    0x000000000001d981       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_info    0x000000000001d9a7       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_info    0x000000000001d9cd       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_info    0x000000000001d9f3      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
- .debug_info    0x000000000001db2b       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
- .debug_info    0x000000000001db51      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+ .debug_info    0x0000000000000072     0x8e72 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_info    0x0000000000008ee4      0x2bc /tmp/cc2cgvP9.debug.temp.o
+                0x0000000000008ee4                crt1.c.6185c1d2
+ .debug_info    0x00000000000091a0       0x8a /tmp/ccEMG2Gi.debug.temp.o
+                0x00000000000091a0                hal.c.0be293e7
+ .debug_info    0x000000000000922a      0x309 /tmp/ccbGyx2Z.debug.temp.o
+                0x000000000000922a                hal_st.c.dff6e77b
+ .debug_info    0x0000000000009533      0xe26 /tmp/ccmCEJS7.debug.temp.o
+                0x0000000000009533                hal_queues.c.5127b49a
+ .debug_info    0x000000000000a359     0x10f9 /tmp/cc2F0L60.debug.temp.o
+                0x000000000000a359                hal_serial.c.20133dc2
+ .debug_info    0x000000000000b452      0x4a4 /tmp/ccvoZiRH.debug.temp.o
+                0x000000000000b452                nvic.c.c36ca289
+ .debug_info    0x000000000000b8f6      0xe3d /tmp/ccNHyMMk.debug.temp.o
+                0x000000000000b8f6                stm32_isr.c.080a805b
+ .debug_info    0x000000000000c733      0x57c /tmp/cc5sZpfG.debug.temp.o
+                0x000000000000c733                hal_lld.c.1451af07
+ .debug_info    0x000000000000ccaf      0x24f /tmp/cc4t352Z.debug.temp.o
+                0x000000000000ccaf                hal_pal_lld.c.2c661425
+ .debug_info    0x000000000000cefe      0x4e8 /tmp/cc8cZpg5.debug.temp.o
+                0x000000000000cefe                hal_st_lld.c.502cf11a
+ .debug_info    0x000000000000d3e6     0x109f /tmp/ccmf180Y.debug.temp.o
+                0x000000000000d3e6                hal_serial_lld.c.7a09f2d1
+ .debug_info    0x000000000000e485      0x4a1 /tmp/cc1LdJw9.debug.temp.o
+                0x000000000000e485                board.c.eca6cc24
+ .debug_info    0x000000000000e926      0xd48 /tmp/ccC71L2Y.debug.temp.o
+                0x000000000000e926                chsys.c.0015622d
+ .debug_info    0x000000000000f66e      0x7b4 /tmp/ccujpKVw.debug.temp.o
+                0x000000000000f66e                chrfcu.c.27ff6f59
+ .debug_info    0x000000000000fe22      0xe78 /tmp/cct24BHY.debug.temp.o
+                0x000000000000fe22                chvt.c.6375baad
+ .debug_info    0x0000000000010c9a      0xdb4 /tmp/ccsRuVN5.debug.temp.o
+                0x0000000000010c9a                chschd.c.d1b9da93
+ .debug_info    0x0000000000011a4e      0xa6d /tmp/ccncdmWQ.debug.temp.o
+                0x0000000000011a4e                chinstances.c.1da08018
+ .debug_info    0x00000000000124bb     0x1269 /tmp/ccMIyhC1.debug.temp.o
+                0x00000000000124bb                chthreads.c.4c2f8f37
+ .debug_info    0x0000000000013724      0xb19 /tmp/ccuTQSO6.debug.temp.o
+                0x0000000000013724                chtm.c.45616f7e
+ .debug_info    0x000000000001423d      0xbe7 /tmp/ccJfairH.debug.temp.o
+                0x000000000001423d                chregistry.c.18181ceb
+ .debug_info    0x0000000000014e24      0xb99 /tmp/ccL8n7h9.debug.temp.o
+                0x0000000000014e24                chmtx.c.64ea8935
+ .debug_info    0x00000000000159bd      0xdd2 /tmp/cchY73CU.debug.temp.o
+                0x00000000000159bd                chevents.c.8136ee4b
+ .debug_info    0x000000000001678f      0xa2b /tmp/cc3VmrI6.debug.temp.o
+                0x000000000001678f                chmemcore.c.7157f22a
+ .debug_info    0x00000000000171ba      0xbc9 /tmp/cckEunZs.debug.temp.o
+                0x00000000000171ba                chmemheaps.c.74ed9d22
+ .debug_info    0x0000000000017d83      0xc19 /tmp/cczVKbmG.debug.temp.o
+                0x0000000000017d83                chmempools.c.1cc9d8e0
+ .debug_info    0x000000000001899c     0x1500 /tmp/ccSzsRMo.debug.temp.o
+                0x000000000001899c                chfactory.c.80c1027b
+ .debug_info    0x0000000000019e9c      0xf64 /tmp/cc2KGhQe.debug.temp.o
+                0x0000000000019e9c                chcore.c.6e81bebc
+ .debug_info    0x000000000001ae00     0x103e /tmp/ccoN4Ed5.debug.temp.o
+                0x000000000001ae00                main.c.958b3d73
+ .debug_info    0x000000000001be3e     0x2ddf /tmp/ccZLmeaC.debug.temp.o
+                0x000000000001be3e                mavlink_bridge.c.0d999870
+ .debug_info    0x000000000001ec1d     0x1fd0 /tmp/ccKTeHqP.debug.temp.o
+                0x000000000001ec1d                dummy_obstacle.c.9e71ca02
+ .debug_info    0x0000000000020bed       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x0000000000020c13       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x0000000000020c39       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x0000000000020c5f       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0000000000020c85      0x717 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x000000000002139c       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000213c2      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000214fa       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000021520      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_abbrev   0x0000000000000000     0x3cdd
+.debug_abbrev   0x0000000000000000     0x4148
  .debug_abbrev  0x0000000000000000       0x14 ./build/obj/crt0_v7m.o
  .debug_abbrev  0x0000000000000014       0x14 ./build/obj/vectors.o
  .debug_abbrev  0x0000000000000028       0x14 ./build/obj/chcoreasm.o
- .debug_abbrev  0x000000000000003c      0x35b /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .debug_abbrev  0x0000000000000397       0xe5 /tmp/ccCaYEv1.debug.temp.o
- .debug_abbrev  0x000000000000047c       0x46 /tmp/ccUPSVhR.debug.temp.o
- .debug_abbrev  0x00000000000004c2      0x13b /tmp/ccCVxvrF.debug.temp.o
- .debug_abbrev  0x00000000000005fd      0x248 /tmp/cc3Yj42w.debug.temp.o
- .debug_abbrev  0x0000000000000845      0x268 /tmp/ccacVsiV.debug.temp.o
- .debug_abbrev  0x0000000000000aad      0x130 /tmp/ccro7BGE.debug.temp.o
- .debug_abbrev  0x0000000000000bdd      0x180 /tmp/cc3MRTxI.debug.temp.o
- .debug_abbrev  0x0000000000000d5d      0x12d /tmp/ccOu2V63.debug.temp.o
- .debug_abbrev  0x0000000000000e8a       0xea /tmp/cczQH9J3.debug.temp.o
- .debug_abbrev  0x0000000000000f74      0x138 /tmp/cckgguAU.debug.temp.o
- .debug_abbrev  0x00000000000010ac      0x251 /tmp/ccgS0EDL.debug.temp.o
- .debug_abbrev  0x00000000000012fd      0x14d /tmp/ccW8u5u9.debug.temp.o
- .debug_abbrev  0x000000000000144a      0x304 /tmp/ccdEB0GO.debug.temp.o
- .debug_abbrev  0x000000000000174e      0x15c /tmp/cc790jPU.debug.temp.o
- .debug_abbrev  0x00000000000018aa      0x260 /tmp/cciAKKop.debug.temp.o
- .debug_abbrev  0x0000000000001b0a      0x238 /tmp/ccnmEGiL.debug.temp.o
- .debug_abbrev  0x0000000000001d42      0x20c /tmp/cc1n3XS9.debug.temp.o
- .debug_abbrev  0x0000000000001f4e      0x27f /tmp/ccB58b4b.debug.temp.o
- .debug_abbrev  0x00000000000021cd      0x1d1 /tmp/cczW0T6j.debug.temp.o
- .debug_abbrev  0x000000000000239e      0x25e /tmp/ccEZGaYz.debug.temp.o
- .debug_abbrev  0x00000000000025fc      0x26b /tmp/ccjdDL7m.debug.temp.o
- .debug_abbrev  0x0000000000002867      0x250 /tmp/ccuIzlOh.debug.temp.o
- .debug_abbrev  0x0000000000002ab7      0x20b /tmp/ccnoSnD0.debug.temp.o
- .debug_abbrev  0x0000000000002cc2      0x24a /tmp/ccMuHnXT.debug.temp.o
- .debug_abbrev  0x0000000000002f0c      0x248 /tmp/ccA6e33W.debug.temp.o
- .debug_abbrev  0x0000000000003154      0x247 /tmp/ccoI9ag0.debug.temp.o
- .debug_abbrev  0x000000000000339b      0x22a /tmp/ccwvZ4sM.debug.temp.o
- .debug_abbrev  0x00000000000035c5      0x25b /tmp/ccLssBSf.debug.temp.o
- .debug_abbrev  0x0000000000003820      0x32c /tmp/ccTatrTm.debug.temp.o
- .debug_abbrev  0x0000000000003b4c       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_abbrev  0x0000000000003b60       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_abbrev  0x0000000000003b74       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_abbrev  0x0000000000003b88       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
- .debug_abbrev  0x0000000000003c15       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
- .debug_abbrev  0x0000000000003c29       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+ .debug_abbrev  0x000000000000003c      0x352 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000038e       0xe5 /tmp/cc2cgvP9.debug.temp.o
+ .debug_abbrev  0x0000000000000473       0x46 /tmp/ccEMG2Gi.debug.temp.o
+ .debug_abbrev  0x00000000000004b9      0x13b /tmp/ccbGyx2Z.debug.temp.o
+ .debug_abbrev  0x00000000000005f4      0x248 /tmp/ccmCEJS7.debug.temp.o
+ .debug_abbrev  0x000000000000083c      0x268 /tmp/cc2F0L60.debug.temp.o
+ .debug_abbrev  0x0000000000000aa4      0x130 /tmp/ccvoZiRH.debug.temp.o
+ .debug_abbrev  0x0000000000000bd4      0x180 /tmp/ccNHyMMk.debug.temp.o
+ .debug_abbrev  0x0000000000000d54      0x12d /tmp/cc5sZpfG.debug.temp.o
+ .debug_abbrev  0x0000000000000e81       0xea /tmp/cc4t352Z.debug.temp.o
+ .debug_abbrev  0x0000000000000f6b      0x138 /tmp/cc8cZpg5.debug.temp.o
+ .debug_abbrev  0x00000000000010a3      0x251 /tmp/ccmf180Y.debug.temp.o
+ .debug_abbrev  0x00000000000012f4      0x14d /tmp/cc1LdJw9.debug.temp.o
+ .debug_abbrev  0x0000000000001441      0x304 /tmp/ccC71L2Y.debug.temp.o
+ .debug_abbrev  0x0000000000001745      0x15c /tmp/ccujpKVw.debug.temp.o
+ .debug_abbrev  0x00000000000018a1      0x260 /tmp/cct24BHY.debug.temp.o
+ .debug_abbrev  0x0000000000001b01      0x238 /tmp/ccsRuVN5.debug.temp.o
+ .debug_abbrev  0x0000000000001d39      0x20c /tmp/ccncdmWQ.debug.temp.o
+ .debug_abbrev  0x0000000000001f45      0x27f /tmp/ccMIyhC1.debug.temp.o
+ .debug_abbrev  0x00000000000021c4      0x1d1 /tmp/ccuTQSO6.debug.temp.o
+ .debug_abbrev  0x0000000000002395      0x25e /tmp/ccJfairH.debug.temp.o
+ .debug_abbrev  0x00000000000025f3      0x26b /tmp/ccL8n7h9.debug.temp.o
+ .debug_abbrev  0x000000000000285e      0x250 /tmp/cchY73CU.debug.temp.o
+ .debug_abbrev  0x0000000000002aae      0x20b /tmp/cc3VmrI6.debug.temp.o
+ .debug_abbrev  0x0000000000002cb9      0x24a /tmp/cckEunZs.debug.temp.o
+ .debug_abbrev  0x0000000000002f03      0x248 /tmp/cczVKbmG.debug.temp.o
+ .debug_abbrev  0x000000000000314b      0x247 /tmp/ccSzsRMo.debug.temp.o
+ .debug_abbrev  0x0000000000003392      0x22a /tmp/cc2KGhQe.debug.temp.o
+ .debug_abbrev  0x00000000000035bc      0x25b /tmp/ccoN4Ed5.debug.temp.o
+ .debug_abbrev  0x0000000000003817      0x32c /tmp/ccZLmeaC.debug.temp.o
+ .debug_abbrev  0x0000000000003b43      0x2e9 /tmp/ccKTeHqP.debug.temp.o
+ .debug_abbrev  0x0000000000003e2c       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x0000000000003e40       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x0000000000003e54       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x0000000000003e68       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000003e7c      0x163 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000000000003fdf       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000003ff3       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000004080       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000004094       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_aranges  0x0000000000000000      0x2f0
+.debug_aranges  0x0000000000000000      0x360
  .debug_aranges
                 0x0000000000000000       0x20 ./build/obj/crt0_v7m.o
  .debug_aranges
@@ -1472,111 +1544,129 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000040       0x20 ./build/obj/chcoreasm.o
  .debug_aranges
-                0x0000000000000060      0x1d0 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                0x0000000000000060      0x1e0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
  .debug_aranges
-                0x0000000000000230       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000000240       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .debug_aranges
-                0x0000000000000250       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                0x0000000000000260       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
  .debug_aranges
-                0x0000000000000270       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                0x0000000000000280       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .debug_aranges
-                0x0000000000000290       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+                0x00000000000002a0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_aranges
-                0x00000000000002b0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+                0x00000000000002c0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_aranges
-                0x00000000000002d0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+                0x00000000000002e0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000000300       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000320       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000340       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_str      0x0000000000000000     0x7113
+.debug_str      0x0000000000000000     0x807f
  .debug_str     0x0000000000000000       0x83 ./build/obj/crt0_v7m.o
  .debug_str     0x0000000000000083       0x3a ./build/obj/vectors.o
                                          0x82 (size before relaxing)
  .debug_str     0x00000000000000bd       0x3b ./build/obj/chcoreasm.o
                                          0x83 (size before relaxing)
- .debug_str     0x00000000000000f8      0x1ad /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-                                        0x20b (size before relaxing)
- .debug_str     0x00000000000002a5      0x3b9 /tmp/ccCaYEv1.debug.temp.o
+ .debug_str     0x00000000000000f8      0x1b8 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+                                        0x21c (size before relaxing)
+ .debug_str     0x00000000000002b0      0x3b9 /tmp/cc2cgvP9.debug.temp.o
                                         0x454 (size before relaxing)
- .debug_str     0x000000000000065e       0x3d /tmp/ccUPSVhR.debug.temp.o
+ .debug_str     0x0000000000000669       0x3d /tmp/ccEMG2Gi.debug.temp.o
                                         0x1c7 (size before relaxing)
- .debug_str     0x000000000000069b      0x138 /tmp/ccCVxvrF.debug.temp.o
+ .debug_str     0x00000000000006a6      0x138 /tmp/ccbGyx2Z.debug.temp.o
                                         0x2dd (size before relaxing)
- .debug_str     0x00000000000007d3      0x562 /tmp/cc3Yj42w.debug.temp.o
+ .debug_str     0x00000000000007de      0x562 /tmp/ccmCEJS7.debug.temp.o
                                         0x7b2 (size before relaxing)
- .debug_str     0x0000000000000d35      0x233 /tmp/ccacVsiV.debug.temp.o
+ .debug_str     0x0000000000000d40      0x233 /tmp/cc2F0L60.debug.temp.o
                                         0x8e1 (size before relaxing)
- .debug_str     0x0000000000000f68      0x157 /tmp/ccro7BGE.debug.temp.o
+ .debug_str     0x0000000000000f73      0x157 /tmp/ccvoZiRH.debug.temp.o
                                         0x325 (size before relaxing)
- .debug_str     0x00000000000010bf      0x4b9 /tmp/cc3MRTxI.debug.temp.o
+ .debug_str     0x00000000000010ca      0x4b9 /tmp/ccNHyMMk.debug.temp.o
                                         0xbe2 (size before relaxing)
- .debug_str     0x0000000000001578      0x1ab /tmp/ccOu2V63.debug.temp.o
+ .debug_str     0x0000000000001583      0x1ab /tmp/cc5sZpfG.debug.temp.o
                                         0x3e8 (size before relaxing)
- .debug_str     0x0000000000001723       0xeb /tmp/cczQH9J3.debug.temp.o
+ .debug_str     0x000000000000172e       0xeb /tmp/cc4t352Z.debug.temp.o
                                         0x2a3 (size before relaxing)
- .debug_str     0x000000000000180e       0xe7 /tmp/cckgguAU.debug.temp.o
+ .debug_str     0x0000000000001819       0xe7 /tmp/cc8cZpg5.debug.temp.o
                                         0x42f (size before relaxing)
- .debug_str     0x00000000000018f5       0xa7 /tmp/ccgS0EDL.debug.temp.o
+ .debug_str     0x0000000000001900       0xa7 /tmp/ccmf180Y.debug.temp.o
                                         0x9dd (size before relaxing)
- .debug_str     0x000000000000199c       0x93 /tmp/ccW8u5u9.debug.temp.o
+ .debug_str     0x00000000000019a7       0x93 /tmp/cc1LdJw9.debug.temp.o
                                         0x3cb (size before relaxing)
- .debug_str     0x0000000000001a2f      0x34a /tmp/ccdEB0GO.debug.temp.o
+ .debug_str     0x0000000000001a3a      0x34a /tmp/ccC71L2Y.debug.temp.o
                                         0x99a (size before relaxing)
- .debug_str     0x0000000000001d79       0x4a /tmp/cc790jPU.debug.temp.o
+ .debug_str     0x0000000000001d84       0x4a /tmp/ccujpKVw.debug.temp.o
                                         0x5ad (size before relaxing)
- .debug_str     0x0000000000001dc3      0x276 /tmp/cciAKKop.debug.temp.o
+ .debug_str     0x0000000000001dce      0x276 /tmp/cct24BHY.debug.temp.o
                                         0x875 (size before relaxing)
- .debug_str     0x0000000000002039      0x1c6 /tmp/ccnmEGiL.debug.temp.o
+ .debug_str     0x0000000000002044      0x1c6 /tmp/ccsRuVN5.debug.temp.o
                                         0x808 (size before relaxing)
- .debug_str     0x00000000000021ff      0x12b /tmp/cc1n3XS9.debug.temp.o
+ .debug_str     0x000000000000220a      0x12b /tmp/ccncdmWQ.debug.temp.o
                                         0x77a (size before relaxing)
- .debug_str     0x000000000000232a      0x328 /tmp/ccB58b4b.debug.temp.o
+ .debug_str     0x0000000000002335      0x322 /tmp/ccMIyhC1.debug.temp.o
                                         0x9b3 (size before relaxing)
- .debug_str     0x0000000000002652       0x90 /tmp/cczW0T6j.debug.temp.o
+ .debug_str     0x0000000000002657       0x90 /tmp/ccuTQSO6.debug.temp.o
                                         0x7b3 (size before relaxing)
- .debug_str     0x00000000000026e2      0x248 /tmp/ccEZGaYz.debug.temp.o
+ .debug_str     0x00000000000026e7      0x248 /tmp/ccJfairH.debug.temp.o
                                         0x8ae (size before relaxing)
- .debug_str     0x000000000000292a       0xcd /tmp/ccjdDL7m.debug.temp.o
+ .debug_str     0x000000000000292f       0xcd /tmp/ccL8n7h9.debug.temp.o
                                         0x713 (size before relaxing)
- .debug_str     0x00000000000029f7      0x1dc /tmp/ccuIzlOh.debug.temp.o
+ .debug_str     0x00000000000029fc      0x1dc /tmp/cchY73CU.debug.temp.o
                                         0x811 (size before relaxing)
- .debug_str     0x0000000000002bd3       0xdc /tmp/ccnoSnD0.debug.temp.o
+ .debug_str     0x0000000000002bd8       0xdc /tmp/cc3VmrI6.debug.temp.o
                                         0x6b2 (size before relaxing)
- .debug_str     0x0000000000002caf      0x15b /tmp/ccMuHnXT.debug.temp.o
+ .debug_str     0x0000000000002cb4      0x15b /tmp/cckEunZs.debug.temp.o
                                         0x714 (size before relaxing)
- .debug_str     0x0000000000002e0a      0x190 /tmp/ccA6e33W.debug.temp.o
+ .debug_str     0x0000000000002e0f      0x190 /tmp/cczVKbmG.debug.temp.o
                                         0x785 (size before relaxing)
- .debug_str     0x0000000000002f9a      0x512 /tmp/ccoI9ag0.debug.temp.o
+ .debug_str     0x0000000000002f9f      0x512 /tmp/ccSzsRMo.debug.temp.o
                                         0xb71 (size before relaxing)
- .debug_str     0x00000000000034ac      0x4c2 /tmp/ccwvZ4sM.debug.temp.o
+ .debug_str     0x00000000000034b1      0x4c2 /tmp/cc2KGhQe.debug.temp.o
                                         0xbe8 (size before relaxing)
- .debug_str     0x000000000000396e       0xea /tmp/ccLssBSf.debug.temp.o
-                                        0x8d7 (size before relaxing)
- .debug_str     0x0000000000003a58     0x3432 /tmp/ccTatrTm.debug.temp.o
-                                       0x3d82 (size before relaxing)
- .debug_str     0x0000000000006e8a       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_str     0x0000000000006f32       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_str     0x0000000000006f32       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_str     0x0000000000006f32       0xfe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_str     0x0000000000003973      0x185 /tmp/ccoN4Ed5.debug.temp.o
+                                        0x977 (size before relaxing)
+ .debug_str     0x0000000000003af8     0x343c /tmp/ccZLmeaC.debug.temp.o
+                                       0x3d9e (size before relaxing)
+ .debug_str     0x0000000000006f34      0x92a /tmp/ccKTeHqP.debug.temp.o
+                                       0x2445 (size before relaxing)
+ .debug_str     0x000000000000785e       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_str     0x0000000000007906       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_str     0x0000000000007906       0xa8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_str     0x0000000000007906       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                         0xa3 (size before relaxing)
+ .debug_str     0x0000000000007932      0x53c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                                        0x641 (size before relaxing)
+ .debug_str     0x0000000000007e6e       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                                         0xa7 (size before relaxing)
+ .debug_str     0x0000000000007e9e       0xfe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
                                         0x1a1 (size before relaxing)
- .debug_str     0x0000000000007030       0xa2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
+ .debug_str     0x0000000000007f9c       0xa2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
                                          0xae (size before relaxing)
- .debug_str     0x00000000000070d2       0x41 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+ .debug_str     0x000000000000803e       0x41 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
                                         0x1b5 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x866b
- .debug_loc     0x0000000000000000     0x8264 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .debug_loc     0x0000000000008264      0x1db /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
- .debug_loc     0x000000000000843f      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+.debug_loc      0x0000000000000000     0xb3a8
+ .debug_loc     0x0000000000000000     0x9f0d /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_loc     0x0000000000009f0d     0x1094 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_loc     0x000000000000afa1      0x1db /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_loc     0x000000000000b17c      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
-.debug_ranges   0x0000000000000000     0x3d90
- .debug_ranges  0x0000000000000000     0x3d90 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+.debug_ranges   0x0000000000000000     0x4698
+ .debug_ranges  0x0000000000000000     0x45b0 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000045b0       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
 
-.debug_frame    0x0000000000000000      0x7d4
- .debug_frame   0x0000000000000000      0x634 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
- .debug_frame   0x0000000000000634       0x4c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000000000000680       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00000000000006b8       0xc8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
- .debug_frame   0x0000000000000780       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
- .debug_frame   0x00000000000007a8       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
+.debug_frame    0x0000000000000000      0x8a4
+ .debug_frame   0x0000000000000000      0x6a4 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+ .debug_frame   0x00000000000006a4       0x4c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000000000006f0       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000000728       0xc8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x00000000000007f0       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000000000000081c       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000850       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000878       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
 
 Cross Reference Table
 
@@ -1593,7 +1683,7 @@ SD1                                               ./build/obj/hal_serial_lld.o (
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
 SD2                                               ./build/obj/hal_serial_lld.o (symbol from plugin)
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
-SVC_Handler                                       /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+SVC_Handler                                       /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chcore.o (symbol from plugin)
                                                   ./build/obj/vectors.o
 SecureFault_Handler                               ./build/obj/vectors.o
@@ -1688,7 +1778,7 @@ VectorA0                                          ./build/obj/vectors.o
 VectorA4                                          ./build/obj/vectors.o
 VectorA8                                          ./build/obj/vectors.o
 VectorAC                                          ./build/obj/vectors.o
-VectorB0                                          /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+VectorB0                                          /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
                                                   ./build/obj/vectors.o
 VectorB4                                          ./build/obj/vectors.o
@@ -1699,10 +1789,10 @@ VectorC4                                          ./build/obj/vectors.o
 VectorC8                                          ./build/obj/vectors.o
 VectorCC                                          ./build/obj/vectors.o
 VectorD0                                          ./build/obj/vectors.o
-VectorD4                                          /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+VectorD4                                          /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
                                                   ./build/obj/vectors.o
-VectorD8                                          /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+VectorD8                                          /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
                                                   ./build/obj/vectors.o
 VectorDC                                          ./build/obj/vectors.o
@@ -1723,18 +1813,26 @@ __aeabi_fcmpeq                                    /usr/lib/gcc/arm-none-eabi/10.
 __aeabi_fcmpge                                    /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __aeabi_fcmpgt                                    /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __aeabi_fcmple                                    /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 __aeabi_fcmplt                                    /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __aeabi_fdiv                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 __aeabi_fmul                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
 __aeabi_frsub                                     /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
 __aeabi_fsub                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
 __aeabi_i2f                                       /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+__aeabi_idiv0                                     /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
 __aeabi_l2f                                       /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_ldiv0                                     /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                                                  /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                                  /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+__aeabi_ldivmod                                   /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 __aeabi_ui2f                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
 __aeabi_ul2f                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_uldivmod                                  /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 __bo_dispose_impl                                 ./build/obj/oop_base_object.o (symbol from plugin)
 __bo_objinit_impl                                 ./build/obj/oop_base_object.o (symbol from plugin)
 __bss_base__                                      ./build/obj/ch_test.o (symbol from plugin)
@@ -1757,18 +1855,18 @@ __ch_mem_writable_areas                           ./build/obj/chmemchecks.o (sym
 __cmpsf2                                          /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __core_init                                       ./build/obj/chmemcore.o (symbol from plugin)
                                                   ./build/obj/chsys.o (symbol from plugin)
-__cpu_init                                        /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__cpu_init                                        /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
 __data_base__                                     ./build/obj/ch_test.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
 __data_end__                                      ./build/obj/ch_test.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
-__default_exit                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__default_exit                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
 __divsf3                                          /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
-__early_init                                      /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__early_init                                      /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/board.o (symbol from plugin)
                                                   ./build/obj/crt1.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
@@ -1783,18 +1881,18 @@ __floatundisf                                     /usr/lib/gcc/arm-none-eabi/10.
 __floatunsisf                                     /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
 __gesf2                                           /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __gtsf2                                           /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
-__heap_base__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__heap_base__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chmemcore.o (symbol from plugin)
-__heap_end__                                      /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__heap_end__                                      /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chmemcore.o (symbol from plugin)
 __heap_init                                       ./build/obj/chmemheaps.o (symbol from plugin)
                                                   ./build/obj/chsys.o (symbol from plugin)
 __init_array_base__                               ./build/obj/crt0_v7m.o
 __init_array_end__                                ./build/obj/crt0_v7m.o
-__init_ram_areas                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__init_ram_areas                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
-__late_init                                       /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__late_init                                       /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
 __lesf2                                           /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
@@ -1802,91 +1900,91 @@ __ltsf2                                           /usr/lib/gcc/arm-none-eabi/10.
 __main_stack_base__                               ./build/obj/crt0_v7m.o
 __main_stack_end__                                ./build/obj/vectors.o
                                                   ./build/obj/crt0_v7m.o
-__main_thread_stack_base__                        /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__main_thread_stack_base__                        /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chsys.o (symbol from plugin)
-__main_thread_stack_end__                         /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__main_thread_stack_end__                         /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chsys.o (symbol from plugin)
 __mulsf3                                          /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldivsf3.o)
 __nesf2                                           /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
 __port_exit_from_isr                              ./build/obj/chcoreasm.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chcore.o (symbol from plugin)
 __port_irq_epilogue                               ./build/obj/chcore.o (symbol from plugin)
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
 __port_switch                                     ./build/obj/chcoreasm.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chschd.o (symbol from plugin)
 __port_switch_from_isr                            ./build/obj/chcoreasm.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chcore.o (symbol from plugin)
 __port_thread_start                               ./build/obj/chcoreasm.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chthreads.o (symbol from plugin)
 __process_stack_base__                            ./build/obj/crt0_v7m.o
 __process_stack_end__                             ./build/obj/crt0_v7m.o
-__ram0_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram0_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram0_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram0_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram0_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram0_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram0_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram0_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram1_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram1_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram1_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram1_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram1_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram1_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram1_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram1_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram2_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram2_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram2_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram2_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram2_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram2_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram2_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram2_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram3_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram3_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram3_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram3_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram3_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram3_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram3_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram3_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram4_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram4_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram4_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram4_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram4_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram4_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram4_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram4_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram5_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram5_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram5_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram5_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram5_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram5_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram5_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram5_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram6_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram6_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram6_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram6_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram6_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram6_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram6_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram6_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram7_clear__                                    /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram7_clear__                                    /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram7_init__                                     /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram7_init__                                     /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram7_init_text__                                /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram7_init_text__                                /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
-__ram7_noinit__                                   /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+__ram7_noinit__                                   /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/crt1.o (symbol from plugin)
 __rodata_base__                                   ./build/obj/ch_test.o (symbol from plugin)
 __rodata_end__                                    ./build/obj/ch_test.o (symbol from plugin)
@@ -1929,6 +2027,9 @@ __test_fail                                       ./build/obj/ch_test.o (symbol 
 __text_base__                                     ./build/obj/ch_test.o (symbol from plugin)
 __text_end__                                      ./build/obj/ch_test.o (symbol from plugin)
 __textdata_base__                                 ./build/obj/crt0_v7m.o
+__udivmoddi4                                      /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                                                  /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                                  /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_ldivmod.o)
 _crt0_entry                                       ./build/obj/crt0_v7m.o
                                                   ./build/obj/vectors.o
 _pal_lld_init                                     ./build/obj/hal_pal_lld.o (symbol from plugin)
@@ -1939,8 +2040,8 @@ _pal_lld_setgroupmode                             ./build/obj/hal_pal_lld.o (sym
 _unhandled_exception                              ./build/obj/vectors.o
 _vectors                                          ./build/obj/vectors.o
                                                   ./build/obj/crt0_v7m.o
-board.c.eca6cc24                                  /tmp/ccW8u5u9.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+board.c.eca6cc24                                  /tmp/cc1LdJw9.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 boardInit                                         ./build/obj/board.o (symbol from plugin)
                                                   ./build/obj/hal.o (symbol from plugin)
 bsIncomingDataI                                   ./build/obj/hal_buffered_serial.o (symbol from plugin)
@@ -2249,7 +2350,7 @@ chRegFindThreadByWorkingArea                      ./build/obj/chregistry.o (symb
                                                   ./build/obj/chthreads.o (symbol from plugin)
 chRegFirstThread                                  ./build/obj/chregistry.o (symbol from plugin)
 chRegNextThread                                   ./build/obj/chregistry.o (symbol from plugin)
-chSchDoPreemption                                 /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+chSchDoPreemption                                 /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chschd.o (symbol from plugin)
                                                   ./build/obj/chcoreasm.o
 chSchDoYieldS                                     ./build/obj/chschd.o (symbol from plugin)
@@ -2431,7 +2532,7 @@ chThdEnqueueTimeoutS                              ./build/obj/chthreads.o (symbo
                                                   ./build/obj/chmboxes.o (symbol from plugin)
                                                   ./build/obj/hal_queues.o (symbol from plugin)
                                                   ./build/obj/hal_buffers.o (symbol from plugin)
-chThdExit                                         /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+chThdExit                                         /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/chthreads.o (symbol from plugin)
                                                   ./build/obj/oslib_test_sequence_005.o (symbol from plugin)
                                                   ./build/obj/rt_test_sequence_012.o (symbol from plugin)
@@ -2517,43 +2618,43 @@ ch_memcore                                        ./build/obj/chmemcore.o (symbo
 ch_system                                         ./build/obj/chsys.o (symbol from plugin)
                                                   ./build/obj/chtm.o (symbol from plugin)
                                                   ./build/obj/chinstances.o (symbol from plugin)
-ch_test.c.1afafbf5                                /tmp/ccVQhq6D.debug.temp.o
-ch_test_printf.c.7917c861                         /tmp/ccS0VDfw.debug.temp.o
-chcond.c.9f46c7a7                                 /tmp/cctcNOJC.debug.temp.o
-chcore.c.6e81bebc                                 /tmp/ccwvZ4sM.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chdebug.c.7f373376                                /tmp/cckWN08z.debug.temp.o
-chdelegates.c.b1d38c9f                            /tmp/ccrrRZXg.debug.temp.o
-chdynamic.c.3a62c307                              /tmp/ccx3fmEQ.debug.temp.o
-chevents.c.8136ee4b                               /tmp/ccuIzlOh.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chfactory.c.80c1027b                              /tmp/ccoI9ag0.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chinstances.c.1da08018                            /tmp/cc1n3XS9.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chmboxes.c.115ec55c                               /tmp/ccIDF3b0.debug.temp.o
-chmemchecks.c.00064f36                            /tmp/ccZuGP3j.debug.temp.o
-chmemcore.c.7157f22a                              /tmp/ccnoSnD0.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chmemheaps.c.74ed9d22                             /tmp/ccMuHnXT.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chmempools.c.1cc9d8e0                             /tmp/ccA6e33W.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chmsg.c.5432ef71                                  /tmp/cc73Qqtj.debug.temp.o
-chmtx.c.64ea8935                                  /tmp/ccjdDL7m.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chobjcaches.c.fae473d9                            /tmp/cciGPbhC.debug.temp.o
-chpipes.c.8d3c820c                                /tmp/cczxXYem.debug.temp.o
-chregistry.c.18181ceb                             /tmp/ccEZGaYz.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chrfcu.c.27ff6f59                                 /tmp/cc790jPU.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chsafety.c.84f2a2f4                               /tmp/ccEJb1qI.debug.temp.o
-chschd.c.d1b9da93                                 /tmp/ccnmEGiL.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chsem.c.71d31a7c                                  /tmp/cca3TXhG.debug.temp.o
-chsys.c.0015622d                                  /tmp/ccdEB0GO.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+ch_test.c.1afafbf5                                /tmp/cchNkVJA.debug.temp.o
+ch_test_printf.c.7917c861                         /tmp/cc7daSFL.debug.temp.o
+chcond.c.9f46c7a7                                 /tmp/ccspuG3G.debug.temp.o
+chcore.c.6e81bebc                                 /tmp/cc2KGhQe.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chdebug.c.7f373376                                /tmp/ccr8HEvB.debug.temp.o
+chdelegates.c.b1d38c9f                            /tmp/ccCqaGl2.debug.temp.o
+chdynamic.c.3a62c307                              /tmp/ccCScWAY.debug.temp.o
+chevents.c.8136ee4b                               /tmp/cchY73CU.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chfactory.c.80c1027b                              /tmp/ccSzsRMo.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chinstances.c.1da08018                            /tmp/ccncdmWQ.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chmboxes.c.115ec55c                               /tmp/ccXKOxST.debug.temp.o
+chmemchecks.c.00064f36                            /tmp/ccpLlntk.debug.temp.o
+chmemcore.c.7157f22a                              /tmp/cc3VmrI6.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chmemheaps.c.74ed9d22                             /tmp/cckEunZs.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chmempools.c.1cc9d8e0                             /tmp/cczVKbmG.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chmsg.c.5432ef71                                  /tmp/ccmhFhWq.debug.temp.o
+chmtx.c.64ea8935                                  /tmp/ccL8n7h9.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chobjcaches.c.fae473d9                            /tmp/ccNzGk3A.debug.temp.o
+chpipes.c.8d3c820c                                /tmp/ccKXbIRg.debug.temp.o
+chregistry.c.18181ceb                             /tmp/ccJfairH.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chrfcu.c.27ff6f59                                 /tmp/ccujpKVw.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chsafety.c.84f2a2f4                               /tmp/ccofWh0y.debug.temp.o
+chschd.c.d1b9da93                                 /tmp/ccsRuVN5.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chsem.c.71d31a7c                                  /tmp/ccxGPELi.debug.temp.o
+chsys.c.0015622d                                  /tmp/ccC71L2Y.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 chtest                                            ./build/obj/ch_test.o (symbol from plugin)
                                                   ./build/obj/oslib_test_sequence_009.o (symbol from plugin)
                                                   ./build/obj/oslib_test_sequence_008.o (symbol from plugin)
@@ -2577,23 +2678,33 @@ chtest                                            ./build/obj/ch_test.o (symbol 
                                                   ./build/obj/rt_test_sequence_002.o (symbol from plugin)
                                                   ./build/obj/rt_test_sequence_001.o (symbol from plugin)
                                                   ./build/obj/ch_test_printf.o (symbol from plugin)
-chthreads.c.4c2f8f37                              /tmp/ccB58b4b.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chtm.c.45616f7e                                   /tmp/cczW0T6j.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-chtrace.c.1f8af24c                                /tmp/cc76IOuA.debug.temp.o
-chvt.c.6375baad                                   /tmp/cciAKKop.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-crt1.c.6185c1d2                                   /tmp/ccCaYEv1.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+chthreads.c.4c2f8f37                              /tmp/ccMIyhC1.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chtm.c.45616f7e                                   /tmp/ccuTQSO6.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+chtrace.c.1f8af24c                                /tmp/cc0dFoSv.debug.temp.o
+chvt.c.6375baad                                   /tmp/cct24BHY.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+crt1.c.6185c1d2                                   /tmp/cc2cgvP9.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+dummy_obstacle.c.9e71ca02                         /tmp/ccKTeHqP.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+dummy_obstacle_init                               ./build/obj/dummy_obstacle.o (symbol from plugin)
+                                                  ./build/obj/main.o (symbol from plugin)
+dummy_obstacle_is_detected                        ./build/obj/dummy_obstacle.o (symbol from plugin)
+                                                  ./build/obj/main.o (symbol from plugin)
+dummy_obstacle_tick                               ./build/obj/dummy_obstacle.o (symbol from plugin)
+                                                  ./build/obj/main.o (symbol from plugin)
+dummy_obstacle_trigger                            ./build/obj/dummy_obstacle.o (symbol from plugin)
+                                                  ./build/obj/main.o (symbol from plugin)
 flashGetAddressOffset                             ./build/obj/hal_flash.o (symbol from plugin)
 flashGetOffsetAddress                             ./build/obj/hal_flash.o (symbol from plugin)
 flashGetOffsetSector                              ./build/obj/hal_flash.o (symbol from plugin)
 flashGetSectorOffset                              ./build/obj/hal_flash.o (symbol from plugin)
 flashGetSectorSize                                ./build/obj/hal_flash.o (symbol from plugin)
 flashWaitErase                                    ./build/obj/hal_flash.o (symbol from plugin)
-hal.c.0be293e7                                    /tmp/ccUPSVhR.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+hal.c.0be293e7                                    /tmp/ccEMG2Gi.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 halInit                                           ./build/obj/hal.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
 halRegWaitAllClear16X                             ./build/obj/hal_safety.o (symbol from plugin)
@@ -2612,29 +2723,29 @@ halRegWaitMatch16X                                ./build/obj/hal_safety.o (symb
 halRegWaitMatch32X                                ./build/obj/hal_safety.o (symbol from plugin)
 halRegWaitMatch8X                                 ./build/obj/hal_safety.o (symbol from plugin)
 halSftFail                                        ./build/obj/hal_safety.o (symbol from plugin)
-hal_buffered_serial.c.e97cb916                    /tmp/cc9heEjQ.debug.temp.o
-hal_buffers.c.08200ab1                            /tmp/cchVIyX1.debug.temp.o
-hal_efl_lld.c.42b475b0                            /tmp/ccVYb4Uz.debug.temp.o
-hal_flash.c.3d7c7c48                              /tmp/ccVG5Vxb.debug.temp.o
-hal_lld.c.1451af07                                /tmp/ccOu2V63.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+hal_buffered_serial.c.e97cb916                    /tmp/ccbh8okQ.debug.temp.o
+hal_buffers.c.08200ab1                            /tmp/cchdh0G9.debug.temp.o
+hal_efl_lld.c.42b475b0                            /tmp/cchNJ4m0.debug.temp.o
+hal_flash.c.3d7c7c48                              /tmp/ccX3rblu.debug.temp.o
+hal_lld.c.1451af07                                /tmp/cc5sZpfG.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 hal_lld_init                                      ./build/obj/hal_lld.o (symbol from plugin)
                                                   ./build/obj/hal.o (symbol from plugin)
-hal_mmcsd.c.9594b82d                              /tmp/ccCB7hU5.debug.temp.o
-hal_pal.c.bfa92cba                                /tmp/ccH7oG7O.debug.temp.o
-hal_pal_lld.c.2c661425                            /tmp/cczQH9J3.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-hal_queues.c.5127b49a                             /tmp/cc3Yj42w.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-hal_safety.c.57144439                             /tmp/ccKKxWzW.debug.temp.o
-hal_serial.c.20133dc2                             /tmp/ccacVsiV.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-hal_serial_lld.c.7a09f2d1                         /tmp/ccgS0EDL.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-hal_st.c.dff6e77b                                 /tmp/ccCVxvrF.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-hal_st_lld.c.502cf11a                             /tmp/cckgguAU.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+hal_mmcsd.c.9594b82d                              /tmp/ccN2HjPN.debug.temp.o
+hal_pal.c.bfa92cba                                /tmp/ccPwQv8R.debug.temp.o
+hal_pal_lld.c.2c661425                            /tmp/cc4t352Z.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+hal_queues.c.5127b49a                             /tmp/ccmCEJS7.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+hal_safety.c.57144439                             /tmp/ccayQK9f.debug.temp.o
+hal_serial.c.20133dc2                             /tmp/cc2F0L60.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+hal_serial_lld.c.7a09f2d1                         /tmp/ccmf180Y.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+hal_st.c.dff6e77b                                 /tmp/ccbGyx2Z.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+hal_st_lld.c.502cf11a                             /tmp/cc8cZpg5.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 ibqGetEmptyBufferI                                ./build/obj/hal_buffers.o (symbol from plugin)
 ibqGetFullBufferTimeout                           ./build/obj/hal_buffers.o (symbol from plugin)
 ibqGetFullBufferTimeoutS                          ./build/obj/hal_buffers.o (symbol from plugin)
@@ -2662,29 +2773,31 @@ iqResetI                                          ./build/obj/hal_queues.o (symb
 irqDeinit                                         ./build/obj/stm32_isr.o (symbol from plugin)
 irqInit                                           ./build/obj/stm32_isr.o (symbol from plugin)
                                                   ./build/obj/hal_lld.o (symbol from plugin)
-main                                              /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+main                                              /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
                                                   ./build/obj/main.o (symbol from plugin)
                                                   ./build/obj/crt0_v7m.o
-main.c.c301165d                                   /tmp/ccLssBSf.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-mavlink_bridge.c.e73ced39                         /tmp/ccTatrTm.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+main.c.958b3d73                                   /tmp/ccoN4Ed5.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+mavlink_bridge.c.0d999870                         /tmp/ccZLmeaC.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 mavlink_bridge_get_led_state                      ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
 mavlink_bridge_heartbeat_tick                     ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
 mavlink_bridge_init                               ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
+mavlink_bridge_is_connected                       ./build/obj/mavlink_bridge.o (symbol from plugin)
+                                                  ./build/obj/main.o (symbol from plugin)
 mavlink_bridge_rx_thread_func                     ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
 memcmp                                            /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcmp.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 memcpy                                            /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memcpy.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 memset                                            /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-memset.o)
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
-nvic.c.c36ca289                                   /tmp/ccro7BGE.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
+nvic.c.c36ca289                                   /tmp/ccvoZiRH.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 nvicClearPending                                  ./build/obj/nvic.o (symbol from plugin)
 nvicDisableVector                                 ./build/obj/nvic.o (symbol from plugin)
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
@@ -2705,7 +2818,7 @@ obqReleaseEmptyBufferI                            ./build/obj/hal_buffers.o (sym
 obqResetI                                         ./build/obj/hal_buffers.o (symbol from plugin)
 obqTryFlushI                                      ./build/obj/hal_buffers.o (symbol from plugin)
 obqWriteTimeout                                   ./build/obj/hal_buffers.o (symbol from plugin)
-oop_base_object.c.5718ef6f                        /tmp/ccCZZ1yJ.debug.temp.o
+oop_base_object.c.5718ef6f                        /tmp/ccoMEAYc.debug.temp.o
 oqGetI                                            ./build/obj/hal_queues.o (symbol from plugin)
                                                   ./build/obj/hal_serial_lld.o (symbol from plugin)
                                                   ./build/obj/hal_serial.o (symbol from plugin)
@@ -2719,45 +2832,46 @@ oqResetI                                          ./build/obj/hal_queues.o (symb
                                                   ./build/obj/hal_serial.o (symbol from plugin)
 oqWriteI                                          ./build/obj/hal_queues.o (symbol from plugin)
 oqWriteTimeout                                    ./build/obj/hal_queues.o (symbol from plugin)
+                                                  ./build/obj/dummy_obstacle.o (symbol from plugin)
                                                   ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/hal_serial.o (symbol from plugin)
-osal.c.715c09a6                                   /tmp/cc27QuIP.debug.temp.o
-oslib_test_root.c.5d2ef25e                        /tmp/ccVmmnUg.debug.temp.o
+osal.c.715c09a6                                   /tmp/ccFXAumx.debug.temp.o
+oslib_test_root.c.5d2ef25e                        /tmp/ccUmAG1H.debug.temp.o
 oslib_test_sequence_001                           ./build/obj/oslib_test_sequence_001.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_001.c.cdbec274                /tmp/ccqUraQh.debug.temp.o
+oslib_test_sequence_001.c.cdbec274                /tmp/ccaIwGGG.debug.temp.o
 oslib_test_sequence_001_array                     ./build/obj/oslib_test_sequence_001.o (symbol from plugin)
 oslib_test_sequence_002                           ./build/obj/oslib_test_sequence_002.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_002.c.883f89b1                /tmp/ccpQMF5Y.debug.temp.o
+oslib_test_sequence_002.c.883f89b1                /tmp/ccpfApIj.debug.temp.o
 oslib_test_sequence_002_array                     ./build/obj/oslib_test_sequence_002.o (symbol from plugin)
 oslib_test_sequence_003                           ./build/obj/oslib_test_sequence_003.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_003.c.ea94a87a                /tmp/ccSWwyAN.debug.temp.o
+oslib_test_sequence_003.c.ea94a87a                /tmp/ccZlvCpN.debug.temp.o
 oslib_test_sequence_003_array                     ./build/obj/oslib_test_sequence_003.o (symbol from plugin)
 oslib_test_sequence_004                           ./build/obj/oslib_test_sequence_004.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_004.c.0866eecf                /tmp/cc7ybcWI.debug.temp.o
+oslib_test_sequence_004.c.0866eecf                /tmp/cch03pIP.debug.temp.o
 oslib_test_sequence_004_array                     ./build/obj/oslib_test_sequence_004.o (symbol from plugin)
 oslib_test_sequence_005                           ./build/obj/oslib_test_sequence_005.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_005.c.972a836e                /tmp/ccXigrrz.debug.temp.o
+oslib_test_sequence_005.c.972a836e                /tmp/ccclJa9q.debug.temp.o
 oslib_test_sequence_005_array                     ./build/obj/oslib_test_sequence_005.o (symbol from plugin)
 oslib_test_sequence_006                           ./build/obj/oslib_test_sequence_006.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_006.c.c4e1c437                /tmp/ccbunk2A.debug.temp.o
+oslib_test_sequence_006.c.c4e1c437                /tmp/ccqBTeIT.debug.temp.o
 oslib_test_sequence_006_array                     ./build/obj/oslib_test_sequence_006.o (symbol from plugin)
 oslib_test_sequence_007                           ./build/obj/oslib_test_sequence_007.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_007.c.c5c4fe5c                /tmp/cctv1Y59.debug.temp.o
+oslib_test_sequence_007.c.c5c4fe5c                /tmp/ccwtnPLS.debug.temp.o
 oslib_test_sequence_007_array                     ./build/obj/oslib_test_sequence_007.o (symbol from plugin)
 oslib_test_sequence_008                           ./build/obj/oslib_test_sequence_008.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_008.c.d63e930f                /tmp/ccY7Phii.debug.temp.o
+oslib_test_sequence_008.c.d63e930f                /tmp/ccyAsgOx.debug.temp.o
 oslib_test_sequence_008_array                     ./build/obj/oslib_test_sequence_008.o (symbol from plugin)
 oslib_test_sequence_009                           ./build/obj/oslib_test_sequence_009.o (symbol from plugin)
                                                   ./build/obj/oslib_test_root.o (symbol from plugin)
-oslib_test_sequence_009.c.8e06e621                /tmp/ccSPytdd.debug.temp.o
+oslib_test_sequence_009.c.8e06e621                /tmp/cc2R6g1s.debug.temp.o
 oslib_test_sequence_009_array                     ./build/obj/oslib_test_sequence_009.o (symbol from plugin)
 oslib_test_suite                                  ./build/obj/oslib_test_root.o (symbol from plugin)
 oslib_test_suite_array                            ./build/obj/oslib_test_root.o (symbol from plugin)
@@ -2766,54 +2880,54 @@ palSetBusMode                                     ./build/obj/hal_pal.o (symbol 
 palWriteBus                                       ./build/obj/hal_pal.o (symbol from plugin)
 port_init                                         ./build/obj/chcore.o (symbol from plugin)
                                                   ./build/obj/chinstances.o (symbol from plugin)
-rt_test_root.c.e13083d6                           /tmp/cc4Uj4Z1.debug.temp.o
+rt_test_root.c.e13083d6                           /tmp/ccodtS8D.debug.temp.o
 rt_test_sequence_001                              ./build/obj/rt_test_sequence_001.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_001.c.d2cac60a                   /tmp/ccP6azdP.debug.temp.o
+rt_test_sequence_001.c.d2cac60a                   /tmp/ccHHj529.debug.temp.o
 rt_test_sequence_001_array                        ./build/obj/rt_test_sequence_001.o (symbol from plugin)
 rt_test_sequence_002                              ./build/obj/rt_test_sequence_002.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_002.c.79f71be0                   /tmp/ccwaSeue.debug.temp.o
+rt_test_sequence_002.c.79f71be0                   /tmp/ccVTc6pw.debug.temp.o
 rt_test_sequence_002_array                        ./build/obj/rt_test_sequence_002.o (symbol from plugin)
 rt_test_sequence_003                              ./build/obj/rt_test_sequence_003.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_003.c.bbe2243a                   /tmp/ccvdwyhf.debug.temp.o
+rt_test_sequence_003.c.bbe2243a                   /tmp/ccyEe7xN.debug.temp.o
 rt_test_sequence_003_array                        ./build/obj/rt_test_sequence_003.o (symbol from plugin)
 rt_test_sequence_004                              ./build/obj/rt_test_sequence_004.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_004.c.5cabdc30                   /tmp/ccyU2qKI.debug.temp.o
+rt_test_sequence_004.c.5cabdc30                   /tmp/cc6S2cxK.debug.temp.o
 rt_test_sequence_004_array                        ./build/obj/rt_test_sequence_004.o (symbol from plugin)
 rt_test_sequence_005                              ./build/obj/rt_test_sequence_005.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_005.c.fec7c936                   /tmp/ccIbwIRF.debug.temp.o
+rt_test_sequence_005.c.fec7c936                   /tmp/ccZuuKjf.debug.temp.o
 rt_test_sequence_005_array                        ./build/obj/rt_test_sequence_005.o (symbol from plugin)
 rt_test_sequence_006                              ./build/obj/rt_test_sequence_006.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_006.c.48526ba8                   /tmp/ccbWEcdV.debug.temp.o
+rt_test_sequence_006.c.48526ba8                   /tmp/ccMEE3IF.debug.temp.o
 rt_test_sequence_006_array                        ./build/obj/rt_test_sequence_006.o (symbol from plugin)
 rt_test_sequence_007                              ./build/obj/rt_test_sequence_007.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_007.c.182e2acd                   /tmp/ccba6FQd.debug.temp.o
+rt_test_sequence_007.c.182e2acd                   /tmp/ccns9e8p.debug.temp.o
 rt_test_sequence_007_array                        ./build/obj/rt_test_sequence_007.o (symbol from plugin)
 rt_test_sequence_008                              ./build/obj/rt_test_sequence_008.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_008.c.fcb171ee                   /tmp/ccTwadsR.debug.temp.o
+rt_test_sequence_008.c.fcb171ee                   /tmp/cc4jCeHT.debug.temp.o
 rt_test_sequence_008_array                        ./build/obj/rt_test_sequence_008.o (symbol from plugin)
 rt_test_sequence_009                              ./build/obj/rt_test_sequence_009.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_009.c.08a9249d                   /tmp/ccPkTRqE.debug.temp.o
+rt_test_sequence_009.c.08a9249d                   /tmp/cch1G0Zj.debug.temp.o
 rt_test_sequence_009_array                        ./build/obj/rt_test_sequence_009.o (symbol from plugin)
 rt_test_sequence_010                              ./build/obj/rt_test_sequence_010.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_010.c.630832d3                   /tmp/ccqsFbai.debug.temp.o
+rt_test_sequence_010.c.630832d3                   /tmp/ccNecj5c.debug.temp.o
 rt_test_sequence_010_array                        ./build/obj/rt_test_sequence_010.o (symbol from plugin)
 rt_test_sequence_011                              ./build/obj/rt_test_sequence_011.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_011.c.37399f77                   /tmp/ccZuemE5.debug.temp.o
+rt_test_sequence_011.c.37399f77                   /tmp/ccGJnw7b.debug.temp.o
 rt_test_sequence_011_array                        ./build/obj/rt_test_sequence_011.o (symbol from plugin)
 rt_test_sequence_012                              ./build/obj/rt_test_sequence_012.o (symbol from plugin)
                                                   ./build/obj/rt_test_root.o (symbol from plugin)
-rt_test_sequence_012.c.fb691629                   /tmp/ccfo5eOk.debug.temp.o
+rt_test_sequence_012.c.fb691629                   /tmp/cce2Wv3v.debug.temp.o
 rt_test_sequence_012_array                        ./build/obj/rt_test_sequence_012.o (symbol from plugin)
 rt_test_suite                                     ./build/obj/rt_test_root.o (symbol from plugin)
 rt_test_suite_array                               ./build/obj/rt_test_root.o (symbol from plugin)
@@ -2840,6 +2954,7 @@ sd_lld_stop                                       ./build/obj/hal_serial_lld.o (
                                                   ./build/obj/hal_serial.o (symbol from plugin)
 stGetAlarm                                        ./build/obj/hal_st.o (symbol from plugin)
 stGetCounter                                      ./build/obj/hal_st.o (symbol from plugin)
+                                                  ./build/obj/dummy_obstacle.o (symbol from plugin)
                                                   ./build/obj/mavlink_bridge.o (symbol from plugin)
                                                   ./build/obj/main.o (symbol from plugin)
                                                   ./build/obj/rt_test_sequence_012.o (symbol from plugin)
@@ -2867,10 +2982,10 @@ st_lld_serve_interrupt                            ./build/obj/hal_st_lld.o (symb
                                                   ./build/obj/stm32_isr.o (symbol from plugin)
 stm32_clock_init                                  ./build/obj/hal_lld.o (symbol from plugin)
                                                   ./build/obj/board.o (symbol from plugin)
-stm32_dma.c.196a27df                              /tmp/ccbmEXvx.debug.temp.o
-stm32_exti.c.1b829b2c                             /tmp/ccXVxwq4.debug.temp.o
-stm32_isr.c.080a805b                              /tmp/cc3MRTxI.debug.temp.o
-                                                  /tmp/ch.elf.Do7ovo.ltrans0.ltrans.o
+stm32_dma.c.196a27df                              /tmp/cccbdXTG.debug.temp.o
+stm32_exti.c.1b829b2c                             /tmp/cceHnLRF.debug.temp.o
+stm32_isr.c.080a805b                              /tmp/ccNHyMMk.debug.temp.o
+                                                  /tmp/ch.elf.lZNXbH.ltrans0.ltrans.o
 test_buffer                                       ./build/obj/rt_test_root.o (symbol from plugin)
                                                   ./build/obj/rt_test_sequence_011.o (symbol from plugin)
 test_emit_token                                   ./build/obj/ch_test.o (symbol from plugin)
