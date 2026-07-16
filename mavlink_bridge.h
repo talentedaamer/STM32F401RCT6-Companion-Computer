@@ -9,16 +9,7 @@
 #define MAVLINK_COMM_NUM_BUFFERS 1
 #include "common/mavlink.h"
 
-#define OWN_SYSID   100
-#define OWN_COMPID  MAV_COMP_ID_ONBOARD_COMPUTER
-
-#define AP_COPTER_MODE_GUIDED  4
-#define AP_COPTER_MODE_RTL     6
-
-#define NEW_LANDING_LAT_DEG   33.541991
-#define NEW_LANDING_LON_DEG   73.113652
-
-#define ARRIVAL_RADIUS_M       3.0f   /* how close counts as "arrived" */
+#include "config.h"
 
 typedef enum {
     LAND_STATE_IDLE = 0,

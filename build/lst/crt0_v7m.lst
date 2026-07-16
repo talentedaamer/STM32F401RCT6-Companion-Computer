@@ -1,11 +1,12 @@
-ARM GAS  /tmp/cc6UVUu6.s 			page 1
+ARM GAS  /tmp/cc5DyOnh.s 			page 1
 
 
-   1              	# 1 "../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S"
-   1              	/*
+   1              	# 0 "../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S"
+   2              	# 1 "/home/ubuntu/stm32-sandbox/ChibiOS/demos/STM32/mavlink-uart//"
    1              	...
    0              	
    0              	
+   1              	/*
    2              	    ChibiOS - Copyright (C) 2006-2026 Giovanni Di Sirio.
    3              	
    4              	    Licensed under the Apache License, Version 2.0 (the "License");
@@ -57,10 +58,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
   50              	#define CPACR_FPU_MASK                      0x00F00000
   51              	
   52              	/*===========================================================================*/
+ARM GAS  /tmp/cc5DyOnh.s 			page 2
+
+
   53              	/* Module pre-compile time settings.                                         */
-ARM GAS  /tmp/cc6UVUu6.s 			page 2
-
-
   54              	/*===========================================================================*/
   55              	
   56              	/**
@@ -117,10 +118,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  107              	
  108              	/**
  109              	 * @brief   Stack segments initialization switch.
+ARM GAS  /tmp/cc5DyOnh.s 			page 3
+
+
  110              	 */
-ARM GAS  /tmp/cc6UVUu6.s 			page 3
-
-
  111              	#if !defined(CRT0_INIT_STACKS) || defined(__DOXYGEN__)
  112              	#define CRT0_INIT_STACKS                    TRUE
  113              	#endif
@@ -177,10 +178,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  164              	
  165              	/**
  166              	 * @brief   FPU FPCCR register initialization value.
+ARM GAS  /tmp/cc5DyOnh.s 			page 4
+
+
  167              	 * @note    Only used if @p CRT0_INIT_FPU is equal to @p TRUE.
-ARM GAS  /tmp/cc6UVUu6.s 			page 4
-
-
  168              	 */
  169              	#if !defined(CRT0_FPCCR_INIT) || defined(__DOXYGEN__)
  170              	#define CRT0_FPCCR_INIT                     (FPCCR_ASPEN | FPCCR_LSPEN)
@@ -237,10 +238,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  221              	                movw    r1, #SCB_FPCCR & 0xFFFF
  222              	                movt    r1, #SCB_FPCCR >> 16
  223              	                str     r0, [r1]
+ARM GAS  /tmp/cc5DyOnh.s 			page 5
+
+
  224              	                dsb
-ARM GAS  /tmp/cc6UVUu6.s 			page 5
-
-
  225              	                isb
  226              	
  227              	                /* CPACR FPU access initialization.*/
@@ -297,10 +298,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  278 0038 1D49     	                ldr     r1, =__process_stack_base__
  279 003a 194A     	                ldr     r2, =__process_stack_end__
  280              	.Lpsloop:
+ARM GAS  /tmp/cc5DyOnh.s 			page 6
+
+
  281 003c 9142     	                cmp     r1, r2
-ARM GAS  /tmp/cc6UVUu6.s 			page 6
-
-
  282 003e 3CBF     	                itt     lo
  283 0040 41F8040B 	                strlo   r0, [r1], #4
  284 0044 FAE7     	                blo     .Lpsloop
@@ -357,10 +358,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  335              	
  336              	#if CRT0_INIT_RAM_AREAS == TRUE
  337              	                /* RAM areas initialization.*/
+ARM GAS  /tmp/cc5DyOnh.s 			page 7
+
+
  338 006a FFF7FEFF 	                bl      __init_ram_areas
-ARM GAS  /tmp/cc6UVUu6.s 			page 7
-
-
  339              	#endif
  340              	
  341              	                /* Late initialization..*/
@@ -417,10 +418,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  392              	                /* PSP stack pointers initialization.*/
  393              	                ldr     r0, =__c\core\()_process_stack_end__
  394              	                msr     PSP, r0
+ARM GAS  /tmp/cc5DyOnh.s 			page 8
+
+
  395              	
-ARM GAS  /tmp/cc6UVUu6.s 			page 8
-
-
  396              	#if CRT0_VTOR_INIT == TRUE
  397              	                /* Initial VTOR position enforced.*/
  398              	                ldr     r0, =_vectors
@@ -477,10 +478,10 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  449              	                ldr     r0, =CRT0_STACKS_FILL_PATTERN
  450              	                /* Main Stack initialization. Note, it assumes that the
  451              	                   stack size is a multiple of 4 so the linker file must
+ARM GAS  /tmp/cc5DyOnh.s 			page 9
+
+
  452              	                   ensure this.*/
-ARM GAS  /tmp/cc6UVUu6.s 			page 9
-
-
  453              	                ldr     r1, =__c\core\()_main_stack_base__
  454              	                ldr     r2, =__c\core\()_main_stack_end__
  455              	.Lc\core\()msloop\@:
@@ -514,14 +515,14 @@ ARM GAS  /tmp/cc6UVUu6.s 			page 1
  481      00000000 
  481      000008ED 
  481      00E00000 
-ARM GAS  /tmp/cc6UVUu6.s 			page 10
+ARM GAS  /tmp/cc5DyOnh.s 			page 10
 
 
 DEFINED SYMBOLS
-../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:193    .text:0000000000000000 $t
-../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:196    .text:0000000000000000 _crt0_entry
-../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:481    .text:000000000000009a $d
-../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:481    .text:000000000000009c $d
+../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:193    .text:00000000 $t
+../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:196    .text:00000000 _crt0_entry
+../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:481    .text:0000009a $d
+../../../os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:481    .text:0000009c $d
 
 UNDEFINED SYMBOLS
 __main_stack_end__

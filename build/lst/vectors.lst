@@ -1,11 +1,12 @@
-ARM GAS  /tmp/ccxjLIvR.s 			page 1
+ARM GAS  /tmp/ccc8V3mI.s 			page 1
 
 
-   1              	# 1 "../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S"
-   1              	/*
+   1              	# 0 "../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S"
+   2              	# 1 "/home/ubuntu/stm32-sandbox/ChibiOS/demos/STM32/mavlink-uart//"
    1              	...
    0              	
    0              	
+   1              	/*
    2              	    ChibiOS - Copyright (C) 2006-2026 Giovanni Di Sirio.
    3              	
    4              	    Licensed under the Apache License, Version 2.0 (the "License");
@@ -57,10 +58,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
   24              	 *          STM32F4xx platform.
   25              	 * @{
   26              	 */
+ARM GAS  /tmp/ccc8V3mI.s 			page 2
+
+
   27              	
-ARM GAS  /tmp/ccxjLIvR.s 			page 2
-
-
   28              	#ifndef CMPARAMS_H
   29              	#define CMPARAMS_H
   30              	
@@ -117,10 +118,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
   43              	
   44              	/*===========================================================================*/
   45              	/* Code section.                                                             */
+ARM GAS  /tmp/ccc8V3mI.s 			page 3
+
+
   46              	/*===========================================================================*/
-ARM GAS  /tmp/ccxjLIvR.s 			page 3
-
-
   47              	
   48              	#if !defined(__DOXYGEN__)
   49              	
@@ -177,10 +178,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
   85      00000000 
   86              	#endif
   87              	#if CORTEX_NUM_VECTORS > 20
+ARM GAS  /tmp/ccc8V3mI.s 			page 4
+
+
   88 0090 00000000 	        .long       Vector90,   Vector94,   Vector98,   Vector9C
-ARM GAS  /tmp/ccxjLIvR.s 			page 4
-
-
   88      00000000 
   88      00000000 
   88      00000000 
@@ -237,10 +238,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  115 0120 00000000 	        .long       Vector120,  Vector124,  Vector128,  Vector12C
  115      00000000 
  115      00000000 
+ARM GAS  /tmp/ccc8V3mI.s 			page 5
+
+
  115      00000000 
-ARM GAS  /tmp/ccxjLIvR.s 			page 5
-
-
  116              	#endif
  117              	#if CORTEX_NUM_VECTORS > 60
  118 0130 00000000 	        .long       Vector130,  Vector134,  Vector138,  Vector13C
@@ -297,10 +298,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  142      00000000 
  143              	#endif
  144              	#if CORTEX_NUM_VECTORS > 96
+ARM GAS  /tmp/ccc8V3mI.s 			page 6
+
+
  145 01c0 00000000 	        .long       Vector1C0,  Vector1C4,  Vector1C8,  Vector1CC
-ARM GAS  /tmp/ccxjLIvR.s 			page 6
-
-
  145      00000000 
  145      00000000 
  145      00000000 
@@ -357,10 +358,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  193              	        .long       Vector2C0,  Vector2C4,  Vector2C8,  Vector2CC
  194              	#endif
  195              	#if CORTEX_NUM_VECTORS > 164
+ARM GAS  /tmp/ccc8V3mI.s 			page 7
+
+
  196              	        .long       Vector2D0,  Vector2D4,  Vector2D8,  Vector2DC
-ARM GAS  /tmp/ccxjLIvR.s 			page 7
-
-
  197              	#endif
  198              	#if CORTEX_NUM_VECTORS > 168
  199              	        .long       Vector2E0,  Vector2E4,  Vector2E8,  Vector2EC
@@ -417,10 +418,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  250              	        .long       Vector3F0,  Vector3F4,  Vector3F8,  Vector3FC
  251              	#endif
  252              	
+ARM GAS  /tmp/ccc8V3mI.s 			page 8
+
+
  253              	        .text
-ARM GAS  /tmp/ccxjLIvR.s 			page 8
-
-
  254              	
  255              	        .align      2
  256              	        .thumb_func
@@ -477,10 +478,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  307              	#if CORTEX_NUM_VECTORS > 44
  308              	        .weak       VectorF0,   VectorF4,   VectorF8,   VectorFC
  309              	#endif
+ARM GAS  /tmp/ccc8V3mI.s 			page 9
+
+
  310              	#if CORTEX_NUM_VECTORS > 48
-ARM GAS  /tmp/ccxjLIvR.s 			page 9
-
-
  311              	        .weak       Vector100,  Vector104,  Vector108,  Vector10C
  312              	#endif
  313              	#if CORTEX_NUM_VECTORS > 52
@@ -537,10 +538,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  364              	#if CORTEX_NUM_VECTORS > 120
  365              	        .weak       Vector220,  Vector224,  Vector228,  Vector22C
  366              	#endif
+ARM GAS  /tmp/ccc8V3mI.s 			page 10
+
+
  367              	#if CORTEX_NUM_VECTORS > 124
-ARM GAS  /tmp/ccxjLIvR.s 			page 10
-
-
  368              	        .weak       Vector230,  Vector234,  Vector238,  Vector23C
  369              	#endif
  370              	#if CORTEX_NUM_VECTORS > 128
@@ -597,10 +598,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  421              	#if CORTEX_NUM_VECTORS > 196
  422              	        .weak       Vector350,  Vector354,  Vector358,  Vector35C
  423              	#endif
+ARM GAS  /tmp/ccc8V3mI.s 			page 11
+
+
  424              	#if CORTEX_NUM_VECTORS > 200
-ARM GAS  /tmp/ccxjLIvR.s 			page 11
-
-
  425              	        .weak       Vector360,  Vector364,  Vector368,  Vector36C
  426              	#endif
  427              	#if CORTEX_NUM_VECTORS > 204
@@ -657,10 +658,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  478              	Vector34:
  479              	        .thumb_func
  480              	PendSV_Handler:
+ARM GAS  /tmp/ccc8V3mI.s 			page 12
+
+
  481              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 12
-
-
  482              	SysTick_Handler:
  483              	        .thumb_func
  484              	Vector40:
@@ -717,10 +718,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  535              	#if CORTEX_NUM_VECTORS > 24
  536              	        .thumb_func
  537              	VectorA0:
+ARM GAS  /tmp/ccc8V3mI.s 			page 13
+
+
  538              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 13
-
-
  539              	VectorA4:
  540              	        .thumb_func
  541              	VectorA8:
@@ -777,10 +778,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  592              	        .thumb_func
  593              	Vector104:
  594              	        .thumb_func
+ARM GAS  /tmp/ccc8V3mI.s 			page 14
+
+
  595              	Vector108:
-ARM GAS  /tmp/ccxjLIvR.s 			page 14
-
-
  596              	        .thumb_func
  597              	Vector10C:
  598              	        .thumb_func
@@ -837,10 +838,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  649              	Vector168:
  650              	        .thumb_func
  651              	Vector16C:
+ARM GAS  /tmp/ccc8V3mI.s 			page 15
+
+
  652              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 15
-
-
  653              	Vector170:
  654              	        .thumb_func
  655              	Vector174:
@@ -897,10 +898,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  706              	        .thumb_func
  707              	Vector1D0:
  708              	        .thumb_func
+ARM GAS  /tmp/ccc8V3mI.s 			page 16
+
+
  709              	Vector1D4:
-ARM GAS  /tmp/ccxjLIvR.s 			page 16
-
-
  710              	        .thumb_func
  711              	Vector1D8:
  712              	        .thumb_func
@@ -957,10 +958,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  763              	Vector234:
  764              	        .thumb_func
  765              	Vector238:
+ARM GAS  /tmp/ccc8V3mI.s 			page 17
+
+
  766              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 17
-
-
  767              	Vector23C:
  768              	#endif
  769              	#if CORTEX_NUM_VECTORS > 128
@@ -1017,10 +1018,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  820              	        .thumb_func
  821              	Vector29C:
  822              	#endif
+ARM GAS  /tmp/ccc8V3mI.s 			page 18
+
+
  823              	#if CORTEX_NUM_VECTORS > 152
-ARM GAS  /tmp/ccxjLIvR.s 			page 18
-
-
  824              	        .thumb_func
  825              	Vector2A0:
  826              	        .thumb_func
@@ -1077,10 +1078,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  877              	#if CORTEX_NUM_VECTORS > 176
  878              	        .thumb_func
  879              	Vector300:
+ARM GAS  /tmp/ccc8V3mI.s 			page 19
+
+
  880              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 19
-
-
  881              	Vector304:
  882              	        .thumb_func
  883              	Vector308:
@@ -1137,10 +1138,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  934              	        .thumb_func
  935              	Vector364:
  936              	        .thumb_func
+ARM GAS  /tmp/ccc8V3mI.s 			page 20
+
+
  937              	Vector368:
-ARM GAS  /tmp/ccxjLIvR.s 			page 20
-
-
  938              	        .thumb_func
  939              	Vector36C:
  940              	        .thumb_func
@@ -1197,10 +1198,10 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  991              	Vector3C8:
  992              	        .thumb_func
  993              	Vector3CC:
+ARM GAS  /tmp/ccc8V3mI.s 			page 21
+
+
  994              	        .thumb_func
-ARM GAS  /tmp/ccxjLIvR.s 			page 21
-
-
  995              	Vector3D0:
  996              	        .thumb_func
  997              	Vector3D4:
@@ -1234,140 +1235,140 @@ ARM GAS  /tmp/ccxjLIvR.s 			page 1
  1025              	_unhandled_exception:
  1026              	.stay:
  1027 0006 FEE7     	        b           .stay
-ARM GAS  /tmp/ccxjLIvR.s 			page 22
+ARM GAS  /tmp/ccc8V3mI.s 			page 22
 
 
 DEFINED SYMBOLS
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:57     .vectors:0000000000000000 _vectors
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:58     .vectors:0000000000000000 $d
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:258    .text:0000000000000000 Reset_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:456    .text:0000000000000002 NMI_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:458    .text:0000000000000002 HardFault_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:460    .text:0000000000000002 MemManage_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:462    .text:0000000000000002 BusFault_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:464    .text:0000000000000002 UsageFault_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:466    .text:0000000000000002 SecureFault_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:468    .text:0000000000000002 Vector20
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:470    .text:0000000000000002 Vector24
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:472    .text:0000000000000002 Vector28
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:474    .text:0000000000000002 SVC_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:476    .text:0000000000000002 DebugMon_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:478    .text:0000000000000002 Vector34
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:480    .text:0000000000000002 PendSV_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:482    .text:0000000000000002 SysTick_Handler
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:484    .text:0000000000000002 Vector40
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:486    .text:0000000000000002 Vector44
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:488    .text:0000000000000002 Vector48
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:490    .text:0000000000000002 Vector4C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:492    .text:0000000000000002 Vector50
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:494    .text:0000000000000002 Vector54
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:496    .text:0000000000000002 Vector58
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:498    .text:0000000000000002 Vector5C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:501    .text:0000000000000002 Vector60
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:503    .text:0000000000000002 Vector64
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:505    .text:0000000000000002 Vector68
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:507    .text:0000000000000002 Vector6C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:509    .text:0000000000000002 Vector70
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:511    .text:0000000000000002 Vector74
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:513    .text:0000000000000002 Vector78
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:515    .text:0000000000000002 Vector7C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:519    .text:0000000000000002 Vector80
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:521    .text:0000000000000002 Vector84
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:523    .text:0000000000000002 Vector88
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:525    .text:0000000000000002 Vector8C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:527    .text:0000000000000002 Vector90
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:529    .text:0000000000000002 Vector94
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:531    .text:0000000000000002 Vector98
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:533    .text:0000000000000002 Vector9C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:537    .text:0000000000000002 VectorA0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:539    .text:0000000000000002 VectorA4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:541    .text:0000000000000002 VectorA8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:543    .text:0000000000000002 VectorAC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:545    .text:0000000000000002 VectorB0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:547    .text:0000000000000002 VectorB4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:549    .text:0000000000000002 VectorB8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:551    .text:0000000000000002 VectorBC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:555    .text:0000000000000002 VectorC0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:557    .text:0000000000000002 VectorC4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:559    .text:0000000000000002 VectorC8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:561    .text:0000000000000002 VectorCC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:563    .text:0000000000000002 VectorD0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:565    .text:0000000000000002 VectorD4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:567    .text:0000000000000002 VectorD8
-ARM GAS  /tmp/ccxjLIvR.s 			page 23
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:57     .vectors:00000000 _vectors
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:58     .vectors:00000000 $d
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:258    .text:00000000 Reset_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:456    .text:00000002 NMI_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:458    .text:00000002 HardFault_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:460    .text:00000002 MemManage_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:462    .text:00000002 BusFault_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:464    .text:00000002 UsageFault_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:466    .text:00000002 SecureFault_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:468    .text:00000002 Vector20
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:470    .text:00000002 Vector24
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:472    .text:00000002 Vector28
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:474    .text:00000002 SVC_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:476    .text:00000002 DebugMon_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:478    .text:00000002 Vector34
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:480    .text:00000002 PendSV_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:482    .text:00000002 SysTick_Handler
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:484    .text:00000002 Vector40
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:486    .text:00000002 Vector44
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:488    .text:00000002 Vector48
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:490    .text:00000002 Vector4C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:492    .text:00000002 Vector50
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:494    .text:00000002 Vector54
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:496    .text:00000002 Vector58
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:498    .text:00000002 Vector5C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:501    .text:00000002 Vector60
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:503    .text:00000002 Vector64
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:505    .text:00000002 Vector68
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:507    .text:00000002 Vector6C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:509    .text:00000002 Vector70
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:511    .text:00000002 Vector74
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:513    .text:00000002 Vector78
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:515    .text:00000002 Vector7C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:519    .text:00000002 Vector80
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:521    .text:00000002 Vector84
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:523    .text:00000002 Vector88
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:525    .text:00000002 Vector8C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:527    .text:00000002 Vector90
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:529    .text:00000002 Vector94
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:531    .text:00000002 Vector98
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:533    .text:00000002 Vector9C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:537    .text:00000002 VectorA0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:539    .text:00000002 VectorA4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:541    .text:00000002 VectorA8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:543    .text:00000002 VectorAC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:545    .text:00000002 VectorB0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:547    .text:00000002 VectorB4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:549    .text:00000002 VectorB8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:551    .text:00000002 VectorBC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:555    .text:00000002 VectorC0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:557    .text:00000002 VectorC4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:559    .text:00000002 VectorC8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:561    .text:00000002 VectorCC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:563    .text:00000002 VectorD0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:565    .text:00000002 VectorD4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:567    .text:00000002 VectorD8
+ARM GAS  /tmp/ccc8V3mI.s 			page 23
 
 
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:569    .text:0000000000000002 VectorDC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:573    .text:0000000000000002 VectorE0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:575    .text:0000000000000002 VectorE4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:577    .text:0000000000000002 VectorE8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:579    .text:0000000000000002 VectorEC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:581    .text:0000000000000002 VectorF0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:583    .text:0000000000000002 VectorF4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:585    .text:0000000000000002 VectorF8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:587    .text:0000000000000002 VectorFC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:591    .text:0000000000000002 Vector100
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:593    .text:0000000000000002 Vector104
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:595    .text:0000000000000002 Vector108
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:597    .text:0000000000000002 Vector10C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:599    .text:0000000000000002 Vector110
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:601    .text:0000000000000002 Vector114
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:603    .text:0000000000000002 Vector118
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:605    .text:0000000000000002 Vector11C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:609    .text:0000000000000002 Vector120
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:611    .text:0000000000000002 Vector124
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:613    .text:0000000000000002 Vector128
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:615    .text:0000000000000002 Vector12C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:617    .text:0000000000000002 Vector130
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:619    .text:0000000000000002 Vector134
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:621    .text:0000000000000002 Vector138
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:623    .text:0000000000000002 Vector13C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:627    .text:0000000000000002 Vector140
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:629    .text:0000000000000002 Vector144
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:631    .text:0000000000000002 Vector148
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:633    .text:0000000000000002 Vector14C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:635    .text:0000000000000002 Vector150
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:637    .text:0000000000000002 Vector154
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:639    .text:0000000000000002 Vector158
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:641    .text:0000000000000002 Vector15C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:645    .text:0000000000000002 Vector160
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:647    .text:0000000000000002 Vector164
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:649    .text:0000000000000002 Vector168
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:651    .text:0000000000000002 Vector16C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:653    .text:0000000000000002 Vector170
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:655    .text:0000000000000002 Vector174
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:657    .text:0000000000000002 Vector178
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:659    .text:0000000000000002 Vector17C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:663    .text:0000000000000002 Vector180
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:665    .text:0000000000000002 Vector184
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:667    .text:0000000000000002 Vector188
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:669    .text:0000000000000002 Vector18C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:671    .text:0000000000000002 Vector190
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:673    .text:0000000000000002 Vector194
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:675    .text:0000000000000002 Vector198
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:677    .text:0000000000000002 Vector19C
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:681    .text:0000000000000002 Vector1A0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:683    .text:0000000000000002 Vector1A4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:685    .text:0000000000000002 Vector1A8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:687    .text:0000000000000002 Vector1AC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:689    .text:0000000000000002 Vector1B0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:691    .text:0000000000000002 Vector1B4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:693    .text:0000000000000002 Vector1B8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:695    .text:0000000000000002 Vector1BC
-ARM GAS  /tmp/ccxjLIvR.s 			page 24
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:569    .text:00000002 VectorDC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:573    .text:00000002 VectorE0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:575    .text:00000002 VectorE4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:577    .text:00000002 VectorE8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:579    .text:00000002 VectorEC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:581    .text:00000002 VectorF0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:583    .text:00000002 VectorF4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:585    .text:00000002 VectorF8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:587    .text:00000002 VectorFC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:591    .text:00000002 Vector100
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:593    .text:00000002 Vector104
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:595    .text:00000002 Vector108
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:597    .text:00000002 Vector10C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:599    .text:00000002 Vector110
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:601    .text:00000002 Vector114
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:603    .text:00000002 Vector118
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:605    .text:00000002 Vector11C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:609    .text:00000002 Vector120
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:611    .text:00000002 Vector124
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:613    .text:00000002 Vector128
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:615    .text:00000002 Vector12C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:617    .text:00000002 Vector130
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:619    .text:00000002 Vector134
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:621    .text:00000002 Vector138
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:623    .text:00000002 Vector13C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:627    .text:00000002 Vector140
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:629    .text:00000002 Vector144
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:631    .text:00000002 Vector148
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:633    .text:00000002 Vector14C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:635    .text:00000002 Vector150
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:637    .text:00000002 Vector154
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:639    .text:00000002 Vector158
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:641    .text:00000002 Vector15C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:645    .text:00000002 Vector160
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:647    .text:00000002 Vector164
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:649    .text:00000002 Vector168
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:651    .text:00000002 Vector16C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:653    .text:00000002 Vector170
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:655    .text:00000002 Vector174
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:657    .text:00000002 Vector178
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:659    .text:00000002 Vector17C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:663    .text:00000002 Vector180
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:665    .text:00000002 Vector184
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:667    .text:00000002 Vector188
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:669    .text:00000002 Vector18C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:671    .text:00000002 Vector190
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:673    .text:00000002 Vector194
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:675    .text:00000002 Vector198
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:677    .text:00000002 Vector19C
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:681    .text:00000002 Vector1A0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:683    .text:00000002 Vector1A4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:685    .text:00000002 Vector1A8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:687    .text:00000002 Vector1AC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:689    .text:00000002 Vector1B0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:691    .text:00000002 Vector1B4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:693    .text:00000002 Vector1B8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:695    .text:00000002 Vector1BC
+ARM GAS  /tmp/ccc8V3mI.s 			page 24
 
 
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:699    .text:0000000000000002 Vector1C0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:701    .text:0000000000000002 Vector1C4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:703    .text:0000000000000002 Vector1C8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:705    .text:0000000000000002 Vector1CC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:707    .text:0000000000000002 Vector1D0
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:709    .text:0000000000000002 Vector1D4
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:711    .text:0000000000000002 Vector1D8
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:713    .text:0000000000000002 Vector1DC
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:255    .text:0000000000000000 $t
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:1025   .text:0000000000000006 _unhandled_exception
-../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:1026   .text:0000000000000006 .stay
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:699    .text:00000002 Vector1C0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:701    .text:00000002 Vector1C4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:703    .text:00000002 Vector1C8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:705    .text:00000002 Vector1CC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:707    .text:00000002 Vector1D0
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:709    .text:00000002 Vector1D4
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:711    .text:00000002 Vector1D8
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:713    .text:00000002 Vector1DC
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:255    .text:00000000 $t
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:1025   .text:00000006 _unhandled_exception
+../../../os/common/startup/ARMCMx/compilers/GCC/vectors.S:1026   .text:00000006 .stay
 
 UNDEFINED SYMBOLS
 __main_stack_end__

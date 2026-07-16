@@ -1,12 +1,18 @@
 build/obj/mavlink_bridge.o: mavlink_bridge.c mavlink_bridge.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  ../../../os/rt/include/ch.h ../../../os/license/chlicense.h \
  ../../../os/license/chversion.h ../../../os/license/chcustomer.h \
  cfg/chconf.h ../../../os/rt/include/chchecks.h \
  ../../../os/rt/include/chrestrictions.h ../../../os/rt/include/chearly.h \
  ../../../os/common/ports/ARM-common/include/chtypes.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
  ../../../os/common/portability/GCC/ccportab.h \
  ../../../os/rt/include/chrfcu.h ../../../os/rt/include/chdebug.h \
  ../../../os/rt/include/chtime.h ../../../os/rt/include/chalign.h \
@@ -41,7 +47,7 @@ build/obj/mavlink_bridge.o: mavlink_bridge.c mavlink_bridge.h \
  ../../../os/oslib/include/chpipes.h \
  ../../../os/oslib/include/chobjcaches.h \
  ../../../os/oslib/include/chdelegates.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  ../../../os/oslib/include/chjobs.h ../../../os/oslib/include/chfactory.h \
  ../../../os/rt/include/chdynamic.h ../../../os/hal/include/hal.h \
  ../../../os/hal/osal/rt-nil/osal.h cfg/halconf.h cfg/mcuconf.h \
@@ -87,28 +93,27 @@ build/obj/mavlink_bridge.o: mavlink_bridge.c mavlink_bridge.h \
  ../../../os/hal/include/hal_serial_usb.h \
  external/mavlink/common/mavlink.h external/mavlink/common/version.h \
  external/mavlink/common/common.h external/mavlink/common/../protocol.h \
- /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
- /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
- /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
- /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
- /usr/include/newlib/machine/_types.h \
- /usr/include/newlib/machine/_default_types.h \
- /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
- /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/string.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_ansi.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/newlib.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/config.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/ieeefp.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/reent.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_ansi.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/cdefs.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_types.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_types.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/lock.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_locale.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/strings.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/string.h \
  external/mavlink/common/../mavlink_types.h \
  external/mavlink/common/../mavlink_helpers.h \
  external/mavlink/common/../checksum.h \
  external/mavlink/common/../mavlink_conversions.h \
- /usr/include/newlib/math.h /usr/include/newlib/stdio.h \
- /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
- /usr/include/newlib/machine/endian.h \
- /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
- /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h \
- /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
- /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
- /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/math.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdio.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/stdio.h \
  external/mavlink/common/../mavlink_sha256.h \
  external/mavlink/common/./mavlink_msg_sys_status.h \
  external/mavlink/common/./mavlink_msg_system_time.h \
@@ -346,10 +351,16 @@ build/obj/mavlink_bridge.o: mavlink_bridge.c mavlink_bridge.h \
  external/mavlink/common/../standard/./mavlink_msg_autopilot_version.h \
  external/mavlink/common/../standard/../minimal/minimal.h \
  external/mavlink/common/../standard/../minimal/./mavlink_msg_heartbeat.h \
- external/mavlink/common/../mavlink_get_info.h
+ external/mavlink/common/../mavlink_get_info.h config.h
 mavlink_bridge.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 ../../../os/rt/include/ch.h:
 ../../../os/license/chlicense.h:
 ../../../os/license/chversion.h:
@@ -359,7 +370,7 @@ cfg/chconf.h:
 ../../../os/rt/include/chrestrictions.h:
 ../../../os/rt/include/chearly.h:
 ../../../os/common/ports/ARM-common/include/chtypes.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
 ../../../os/common/portability/GCC/ccportab.h:
 ../../../os/rt/include/chrfcu.h:
 ../../../os/rt/include/chdebug.h:
@@ -408,7 +419,7 @@ board/board.h:
 ../../../os/oslib/include/chpipes.h:
 ../../../os/oslib/include/chobjcaches.h:
 ../../../os/oslib/include/chdelegates.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
 ../../../os/oslib/include/chjobs.h:
 ../../../os/oslib/include/chfactory.h:
 ../../../os/rt/include/chdynamic.h:
@@ -472,42 +483,27 @@ external/mavlink/common/mavlink.h:
 external/mavlink/common/version.h:
 external/mavlink/common/common.h:
 external/mavlink/common/../protocol.h:
-/usr/include/newlib/string.h:
-/usr/include/newlib/_ansi.h:
-/usr/include/newlib/newlib.h:
-/usr/include/newlib/_newlib_version.h:
-/usr/include/newlib/sys/config.h:
-/usr/include/newlib/machine/ieeefp.h:
-/usr/include/newlib/sys/features.h:
-/usr/include/newlib/sys/reent.h:
-/usr/include/newlib/_ansi.h:
-/usr/include/newlib/sys/_types.h:
-/usr/include/newlib/machine/_types.h:
-/usr/include/newlib/machine/_default_types.h:
-/usr/include/newlib/sys/lock.h:
-/usr/include/newlib/sys/cdefs.h:
-/usr/include/newlib/sys/_locale.h:
-/usr/include/newlib/strings.h:
-/usr/include/newlib/sys/string.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/string.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_ansi.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/newlib.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/config.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/ieeefp.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/reent.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_ansi.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/cdefs.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_types.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_types.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/lock.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_locale.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/strings.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/string.h:
 external/mavlink/common/../mavlink_types.h:
 external/mavlink/common/../mavlink_helpers.h:
 external/mavlink/common/../checksum.h:
 external/mavlink/common/../mavlink_conversions.h:
-/usr/include/newlib/math.h:
-/usr/include/newlib/stdio.h:
-/usr/include/newlib/sys/types.h:
-/usr/include/newlib/sys/_stdint.h:
-/usr/include/newlib/machine/endian.h:
-/usr/include/newlib/machine/_endian.h:
-/usr/include/newlib/sys/select.h:
-/usr/include/newlib/sys/_sigset.h:
-/usr/include/newlib/sys/_timeval.h:
-/usr/include/newlib/sys/timespec.h:
-/usr/include/newlib/sys/_timespec.h:
-/usr/include/newlib/sys/_pthreadtypes.h:
-/usr/include/newlib/sys/sched.h:
-/usr/include/newlib/machine/types.h:
-/usr/include/newlib/sys/stdio.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/math.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdio.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/stdio.h:
 external/mavlink/common/../mavlink_sha256.h:
 external/mavlink/common/./mavlink_msg_sys_status.h:
 external/mavlink/common/./mavlink_msg_system_time.h:
@@ -746,3 +742,4 @@ external/mavlink/common/../standard/./mavlink_msg_autopilot_version.h:
 external/mavlink/common/../standard/../minimal/minimal.h:
 external/mavlink/common/../standard/../minimal/./mavlink_msg_heartbeat.h:
 external/mavlink/common/../mavlink_get_info.h:
+config.h:

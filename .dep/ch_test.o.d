@@ -1,12 +1,18 @@
 build/obj/ch_test.o: ../../../os/test/src/ch_test.c \
  ../../../os/test/include/ch_test.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  ../../../os/hal/include/hal.h \
  ../../../os/common/portability/GCC/ccportab.h \
  ../../../os/hal/osal/rt-nil/osal.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  ../../../os/rt/include/ch.h ../../../os/license/chlicense.h \
  ../../../os/license/chversion.h ../../../os/license/chcustomer.h \
  cfg/chconf.h ../../../os/rt/include/chchecks.h \
@@ -88,13 +94,19 @@ build/obj/ch_test.o: ../../../os/test/src/ch_test.c \
  ../../../os/hal/include/hal_mmc_spi.h \
  ../../../os/hal/include/hal_serial_usb.h
 ../../../os/test/include/ch_test.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
 ../../../os/hal/include/hal.h:
 ../../../os/common/portability/GCC/ccportab.h:
 ../../../os/hal/osal/rt-nil/osal.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 ../../../os/rt/include/ch.h:
 ../../../os/license/chlicense.h:
 ../../../os/license/chversion.h:

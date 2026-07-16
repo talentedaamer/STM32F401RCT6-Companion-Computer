@@ -13,13 +13,13 @@
 #include "ch.h"
 #include "hal.h"
 #include "mavlink_bridge.h"
+#include "config.h"
 
-#define LED_LINE   PAL_LINE(GPIOC, 13U)
 #define LED_ON()   palClearLine(LED_LINE)   /* active-low */
 #define LED_OFF()  palSetLine(LED_LINE)
 
 static const SerialConfig sd1cfg = {
-    57600,   /* baud rate - match your FC telemetry port */
+    FC_TELEM_BAUD,   /* baud rate - match your FC telemetry port, see config.h */
     0,       /* CR1 */
     0,       /* CR2 */
     0        /* CR3 */

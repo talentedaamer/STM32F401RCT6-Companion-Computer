@@ -22,8 +22,6 @@ typedef struct {
 
 static fc_telemetry_t fc;
 
-#define HEARTBEAT_TIMEOUT_MS 3000
-
 static void mav_send(const mavlink_message_t *msg) {
     static uint8_t buf[MAVLINK_MAX_PACKET_LEN];
     uint16_t len = mavlink_msg_to_send_buffer(buf, msg);

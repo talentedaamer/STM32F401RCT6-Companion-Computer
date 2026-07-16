@@ -4,9 +4,15 @@ build/obj/chdynamic.o: ../../../os/rt/src/chdynamic.c \
  cfg/chconf.h ../../../os/rt/include/chchecks.h \
  ../../../os/rt/include/chrestrictions.h ../../../os/rt/include/chearly.h \
  ../../../os/common/ports/ARM-common/include/chtypes.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h \
+ /home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  ../../../os/common/portability/GCC/ccportab.h \
  ../../../os/rt/include/chrfcu.h ../../../os/rt/include/chdebug.h \
  ../../../os/rt/include/chtime.h ../../../os/rt/include/chalign.h \
@@ -41,7 +47,7 @@ build/obj/chdynamic.o: ../../../os/rt/src/chdynamic.c \
  ../../../os/oslib/include/chpipes.h \
  ../../../os/oslib/include/chobjcaches.h \
  ../../../os/oslib/include/chdelegates.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  ../../../os/oslib/include/chjobs.h ../../../os/oslib/include/chfactory.h \
  ../../../os/rt/include/chdynamic.h
 ../../../os/rt/include/ch.h:
@@ -53,9 +59,15 @@ cfg/chconf.h:
 ../../../os/rt/include/chrestrictions.h:
 ../../../os/rt/include/chearly.h:
 ../../../os/common/ports/ARM-common/include/chtypes.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/machine/_default_types.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/features.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/_newlib_version.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_intsup.h:
+/home/ubuntu/stm32-sandbox/toolchain/arm-none-eabi/include/sys/_stdint.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 ../../../os/common/portability/GCC/ccportab.h:
 ../../../os/rt/include/chrfcu.h:
 ../../../os/rt/include/chdebug.h:
@@ -104,7 +116,7 @@ board/board.h:
 ../../../os/oslib/include/chpipes.h:
 ../../../os/oslib/include/chobjcaches.h:
 ../../../os/oslib/include/chdelegates.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+/home/ubuntu/stm32-sandbox/toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
 ../../../os/oslib/include/chjobs.h:
 ../../../os/oslib/include/chfactory.h:
 ../../../os/rt/include/chdynamic.h:
