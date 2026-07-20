@@ -1,12 +1,12 @@
-build/obj/dummy_obstacle.o: dummy_obstacle.c dummy_obstacle.h \
- mavlink_bridge.h /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+build/obj/sensor_distance.o: sensor_distance.c sensor_distance.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  ../../../os/rt/include/ch.h ../../../os/license/chlicense.h \
  ../../../os/license/chversion.h ../../../os/license/chcustomer.h \
  cfg/chconf.h ../../../os/rt/include/chchecks.h \
  ../../../os/rt/include/chrestrictions.h ../../../os/rt/include/chearly.h \
  ../../../os/common/ports/ARM-common/include/chtypes.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  ../../../os/common/portability/GCC/ccportab.h \
  ../../../os/rt/include/chrfcu.h ../../../os/rt/include/chdebug.h \
  ../../../os/rt/include/chtime.h ../../../os/rt/include/chalign.h \
@@ -73,6 +73,7 @@ build/obj/dummy_obstacle.o: dummy_obstacle.c dummy_obstacle.h \
  ../../../os/hal/include/hal_crypto.h ../../../os/hal/include/hal_dac.h \
  ../../../os/hal/include/hal_dspl.h ../../../os/hal/include/hal_efl.h \
  ../../../os/hal/include/hal_gpt.h ../../../os/hal/include/hal_i2c.h \
+ ../../../os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../../os/hal/include/hal_i2s.h ../../../os/hal/include/hal_icu.h \
  ../../../os/hal/include/hal_mac.h ../../../os/hal/include/hal_pwm.h \
  ../../../os/hal/include/hal_rtc.h ../../../os/hal/include/hal_serial.h \
@@ -84,7 +85,7 @@ build/obj/dummy_obstacle.o: dummy_obstacle.c dummy_obstacle.h \
  ../../../os/hal/include/hal_st.h \
  ../../../os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.h \
  ../../../os/hal/include/hal_mmc_spi.h \
- ../../../os/hal/include/hal_serial_usb.h \
+ ../../../os/hal/include/hal_serial_usb.h mavlink_bridge.h \
  external/mavlink/common/mavlink.h external/mavlink/common/version.h \
  external/mavlink/common/common.h external/mavlink/common/../protocol.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -347,10 +348,8 @@ build/obj/dummy_obstacle.o: dummy_obstacle.c dummy_obstacle.h \
  external/mavlink/common/../standard/../minimal/minimal.h \
  external/mavlink/common/../standard/../minimal/./mavlink_msg_heartbeat.h \
  external/mavlink/common/../mavlink_get_info.h
-dummy_obstacle.h:
-mavlink_bridge.h:
+sensor_distance.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 ../../../os/rt/include/ch.h:
 ../../../os/license/chlicense.h:
 ../../../os/license/chversion.h:
@@ -361,6 +360,7 @@ cfg/chconf.h:
 ../../../os/rt/include/chearly.h:
 ../../../os/common/ports/ARM-common/include/chtypes.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 ../../../os/common/portability/GCC/ccportab.h:
 ../../../os/rt/include/chrfcu.h:
 ../../../os/rt/include/chdebug.h:
@@ -450,6 +450,7 @@ cfg/mcuconf.h:
 ../../../os/hal/include/hal_efl.h:
 ../../../os/hal/include/hal_gpt.h:
 ../../../os/hal/include/hal_i2c.h:
+../../../os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h:
 ../../../os/hal/include/hal_i2s.h:
 ../../../os/hal/include/hal_icu.h:
 ../../../os/hal/include/hal_mac.h:
@@ -469,6 +470,7 @@ cfg/mcuconf.h:
 ../../../os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.h:
 ../../../os/hal/include/hal_mmc_spi.h:
 ../../../os/hal/include/hal_serial_usb.h:
+mavlink_bridge.h:
 external/mavlink/common/mavlink.h:
 external/mavlink/common/version.h:
 external/mavlink/common/common.h:

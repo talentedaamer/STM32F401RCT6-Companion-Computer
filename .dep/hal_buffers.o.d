@@ -83,6 +83,7 @@ build/obj/hal_buffers.o: ../../../os/hal/src/hal_buffers.c \
  ../../../os/hal/include/hal_crypto.h ../../../os/hal/include/hal_dac.h \
  ../../../os/hal/include/hal_dspl.h ../../../os/hal/include/hal_efl.h \
  ../../../os/hal/include/hal_gpt.h ../../../os/hal/include/hal_i2c.h \
+ ../../../os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../../os/hal/include/hal_i2s.h ../../../os/hal/include/hal_icu.h \
  ../../../os/hal/include/hal_mac.h ../../../os/hal/include/hal_pwm.h \
  ../../../os/hal/include/hal_rtc.h ../../../os/hal/include/hal_serial.h \
@@ -213,6 +214,7 @@ cfg/mcuconf.h:
 ../../../os/hal/include/hal_efl.h:
 ../../../os/hal/include/hal_gpt.h:
 ../../../os/hal/include/hal_i2c.h:
+../../../os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h:
 ../../../os/hal/include/hal_i2s.h:
 ../../../os/hal/include/hal_icu.h:
 ../../../os/hal/include/hal_mac.h:
